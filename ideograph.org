@@ -1,0 +1,587 @@
+A collection of (possibly) networks of self-consistent beliefs/assertions from different political ideologies, linked together to show interrelationships, agreements, disagreements, ... Basically a fancy political quiz.
+
+* todo / notes
+- After finish anarchism and maybe a few others, stop and make a prototype of the site
+- Look at notes... And ideally condense them.
+- Might be useful to search for 'disagreements between A and B'
+- Not sure how tree-like this will end up being - maybe will ultimately be more of a "constellation" of assertions, some of which are parts of "logical dependency" trees
+- How to include critique? Like want to include the information of "criticism of capitalism", socialism, etc. pages, but not sure how best to include them. Maybe, for ideologies that explicitly critique particular ideas, just have that critique as an assertion that conflicts with the idea it's critiquing?
+- Had previously thought to only have a single kind of edge / inclusion, "accepts" (rather than both "explicitly accepts" and "explicitly rejects"), but would also be kinda nice to have "sometimes accepts" - like anarcho-naturism sometimes-accepts vegetarianism, sometimes not. Not sure this is worth the complexity though - suddenly seems like every ideology should have an edge (of some sort) to every assertion. Though could have "accepts" and "sometimes accepts"...
+- how to represent the evolution of ideas? often rejecting original version and accepting modified version... Maybe simplest to just have the "evolution" as a new assertion that conflicts with original idea... But not great.
+- According to wikipedia: "Political ideologies have two dimensions: Goals - how society should work, and Methods - the most appropriate ways to achieve the ideal arrangement".  So maybe can have _both_ the "ideas" and the "practical things", like nodes both for goals like communal ownership, and methods like free shops, mutualist credit exchanges, and other practical / "implementation details". Then can still collect those things into your own personal ideology.
+- Also just think you should have "critiques" of things as their own nodes with some kind of conflicting edge to the thing they critique.
+* desirements
+- want it to help you find inconsistencies in your own beliefs
+- list of ideologies that you can scroll through to see them get highlighted in the graph, then see them blank out as you "rule them out" while choosing assertions
+- come up with a funny (but accurate) name for the current selection of assertions
+- button to generate new consistent ideology and come up with a silly name
+- 'justify' button that let's you choose assertions and generates a minimal set of beliefs that support them 
+- Medium term goal is to be able to paste in a (maybe artificial) text, have it attempt to extract key phrases (which you can filter / remove if desired) and create a graph of ideological concepts, then automatically synthesize (ish) a response (or just point out good things to use as counterarguments) given your own ideological positions
+- seeing some of the heinous shit that these philosophers thought, interesting to highlight that in the graph as well - like pick out philosophers and see that, oh, they thought races needed to be pure
+- cool if can easily display difference between ideologies in site - just like you can view the 'root disagreements' (or root agreements) between two people/poses, you can enter two existing ideologies and view their differences
+- secretly a propaganda tool! because thinking rationally about political position might make you realize you're not a "liberal" or "conservative"
+- maybe *could* do some kind of netflix-y machine learning / recommendation engine thing. Have the rows of your matrix be particular assertions / views, and the columns be ideology names... Might be interesting to play with. Though wouldn't take advantage of logical dependencies in any way, but maybe that's ok... Probably shouldn't go by ideology names though, want to basically "discover" those through this process. Maybe should put actual individuals.
+* things to integrate
+- quote from hn: I honestly feel that if considered luck to be a larger factor and effort to be a lesser factor, his political stances would change pretty dramatically. (same applies to me in reverse). I wonder how much the social willingness to accept luck as a factor impacts popular political positions. (Perhaps not much, as the author in the article promotes a consumption tax, which is generally seen as more regressive)
+- quote from hn: My version: Republican party platform does not believe in the "veil of ignorance" at all whatsoever. They support neo-feudalism and aristocracy. Equality is fake, people are in fact different, those differences should be rewarded and punished in a free market, it is considered unfair to force equality to be true. Even equality under the law is negotiable, where those who can afford better lawyers get better justice. Democrats are tone deaf, and suck at marketing their own policy successes. They'd rather convince people to vote for them on the basis of a smug liberalism which says if only people had the facts they'd vote Democrat. Ergo if you vote Republican you're either stupid or evil. This is not a winning strategy, obviously.
+- quote from hn: Drilling in to find what we really disagree about, it seems to boil down to two concepts: (1) I view success as a matter of luck that your effort can make better or worse. He views effort as the single most important deciding factor in success in life (2) I'm willing to tolerate an amount of "unfairness" in people getting help they "don't deserve", while he finds this very offensive.
+- http://townhall.com/columnists/dennisprager/2017/01/17/a-guide-to-basic-differences-between-left-and-right-n2271475
+* links
+http://www.philosophyideas.com/
+https://www.truthmapping.com/
+http://www.iep.utm.edu/
+search "x core beliefs"
+* political dimensions
+- Authoritarian-Libertarian (socially) vs Left-Right (economically) spectrum (politicalcompass.org)
+- Nolan Chart: Personal Issues vs. Economic Issues  (Foundation for Economic Education)
+- Left-Right vs. Libertarian-Statist (Advocates for Self Government)
+- Economic Liberty v. Personal Liberty v. Political Liberty (http://www.friesian.com/quiz.htm)
+- sociocultural issues vs economic issues - both spanning from individualism to communitarianism (https://en.wikipedia.org/wiki/Political_spectrum) - there a bunch more 'possible dimensions' listed there
+- Traditional - Secular/Rational values vs.  Survival - Self Expression values (inglehart values map)
+- Nolar Chart + "interventionism" dimension
+* questions from political quizzes
+** politicalcompass.org
+If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.
+I'd always support my country, whether it was right or wrong.
+No one chooses his or her country of birth, so it's foolish to be proud of it.
+Our race has many superior qualities, compared with other races.
+The enemy of my enemy is my friend.
+Military action that defies international law is sometimes justified.
+There is now a worrying fusion of information and entertainment.
+People are ultimately divided more by class than by nationality.
+Controlling inflation is more important than controlling unemployment.
+Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.
+"from each according to his ability, to each according to his need" is a fundamentally good idea.
+It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.
+Land shouldn't be a commodity to be bought and sold.
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.
+Protectionism is sometimes necessary in trade.
+The only social responsibility of a company should be to deliver a profit to its shareholders.
+The rich are too highly taxed.
+Those with the ability to pay should have the right to higher standards of medical care .
+Governments should penalise businesses that mislead the public.
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.
+The freer the market, the freer the people.
+Abortion, when the woman's life is not threatened, should always be illegal.
+All authority should be questioned.
+An eye for an eye and a tooth for a tooth.
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.
+Schools should not make classroom attendance compulsory.
+All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.
+Good parents sometimes have to spank their children.
+It's natural for children to keep some secrets from their parents.
+Possessing marijuana for personal use should not be a criminal offence.
+The prime function of schooling should be to equip the future generation to find jobs.
+People with serious inheritable disabilities should not be allowed to reproduce.
+The most important thing for children to learn is to accept discipline.
+There are no savage and civilised peoples; there are only different cultures.
+Those who are able to work, and refuse the opportunity, should not expect society's support.
+When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.
+First-generation immigrants can never be fully integrated within their new country.
+What's good for the most successful corporations is always, ultimately, good for all of us.
+No broadcasting institution, however independent its content, should receive public funding.
+Our civil liberties are being excessively curbed in the name of counter-terrorism.
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.
+Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.
+The death penalty should be an option for the most serious crimes.
+In a civilised society, one must always have people above to be obeyed and people below to be commanded.
+Abstract art that doesn't represent anything shouldn't be considered art at all.
+In criminal justice, punishment should be more important than rehabilitation.
+It is a waste of time to try to rehabilitate some criminals.
+The businessperson and the manufacturer are more important than the writer and the artist.
+Mothers may have careers, but their first duty is to be homemakers.
+Multinational companies are unethically exploiting the plant genetic resources of developing countries.
+Making peace with the establishment is an important aspect of maturity.
+Astrology accurately explains many things.
+You cannot be moral without being religious.
+Charity is better than social security as a means of helping the genuinely disadvantaged.
+Some people are naturally unlucky.
+It is important that my child's school instills religious values.
+Sex outside marriage is usually immoral.
+A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.
+Pornography, depicting consenting adults, should be legal for the adult population.
+What goes on in a private bedroom between consenting adults is no business of the state.
+No one can feel naturally homosexual.
+These days openness about sex has gone too far.
+** Advocates for Self Government "World' Smallest Policital Quiz"
+Government should not censor speech, press, media, or internet. 
+Military service should be voluntary. There should be no draft. 
+There should be no laws regarding sex for consenting adults. 
+Repeal laws prohibiting adult possession and use of drugs. 
+There should be no National ID card. 
+End "corporate welfare." No government handouts to business. 
+End government barriers to international free trade. 
+Let people control their own retirement; privatize Social Security. 
+Replace government welfare with private charity. 
+Cut taxes and government spending by 50% or more.
+** http://www.friesian.com/quiz.htm, 3D spectrum
+(Each one has yes-maybe-no answers, yes=10pts, maybe=5pts, no=0pts)
+Do you have the right to...
+(personal rights)
+- see or buy a pornographic video
+- not wear a seatbelt or motorcycle helmet
+- not send your child to school
+- have an abortion
+- own a handgun
+- have any sexual relations with adults
+- travel to any foreign country
+- use unapproved medical treatments
+- use marijuana or other drugs
+- not wear a swimsuit
+(economic rights)
+- offer or accept a particular wage
+- hire or not a minority or foreign worker
+- gamble for money
+- not insure your car
+- purchase foreign made products
+- run a business at home
+- not give money to public welfare
+- support a foreign country
+- not contribute to social security
+- hire an unlicensed contractor
+(political rights)
+- vote or decline to vote in elections
+- contribute any money you see fit to politicians or causes
+- be compensated for the public use of your property
+- decline to serve on juries
+- vote your conscience while on a jury
+- decline to serve in the military
+- obey only lawful orders while in the military
+- resist tyrannical acts or unjust laws by force
+- decline to pay taxes
+* collection of key assertions
+** strategy
+- Go through list of political ideologies
+- Grab all the key concepts / tenets / core beliefs you find and put in a list (don't worry about relation)
+- Cover anything you missed on the Category pages - like "Category: Libertarianism by form"
+- Make sure you've gone to all the links in the "Politics Series on (xxx)" headers
+- Take the rough concepts and try to extract out brief versions, so that each ideology is a list of key ideas
+- Merge as many as possible, connect together, expand logical bases for them, etc.
+** anarchism
+LOOK AT ALL THE LINKS UNDER "politics series on anarchism" thing, make sure you've seen them all!
+
+(grab bag of things that I wasn't sure where to put)
+- the state is undesirable, unnecessary, or harmful
+- violentist vs pacifist
+- free love
+- direct action
+- propaganda by the (deed, ...)
+- refusal of work
+*** philosophical anarchism
+- the state lacks moral legitimacy, but we should not use violence to eliminate it
+- we have no obligation or duty to obey the State, and the State has no right to command us
+- self-government with a "progressive rationalism that included benevolence to others
+- social cooperation should be achieved via the market
+- a minimal state is an unfortunate (and hopefully temporary) "necessary evil"
+- we do not have a moral obligation to obey the state when its laws conflict with individual autonomy
+- individuals to act in accordance with their own judgments and to allow every other individual the same liberty (godwinian)
+- 'the unique one' who truly 'owns himself' recognizes no duties to others; within the limit of his might, he does what is right for him (stirnerian)
+- we should work for gradual change to free the individual from what they thought were the oppressive laws and social constraints of the modern state and allow all individuals to become self-determining and value-creating
+- oppose the immediate elimination of the state by violent means out of concern that what remains might be vulnerable to the establishment of a yet more harmful and oppressive state
+- violence and the state are synonymous
+- public reaction to violence results in increased "law enforcement" efforts.
+- individualist anarchists reject both social "archy" and political "kratos"
+- "conservative anarchists" accept social "archy" of rank but not political "kratos" of state control
+- support the ordering by rank of social groups such as families, churches, corporations, clubs, and even countries
+- government is a "necessary evil"
+- the state will become increasingly unnecessary and powerless by the gradual spread of knowledge
+- That government is best which governs not at all
+- the state has a right to command and subjects have a binding obligation to obey
+*** Herbert Spencer
+- Human culture and societies should be subject to evolution ("survival of the fittest" - Herbert Spencer)
+- the state was not an "essential" institution and that it would "decay" as voluntary market organisation would replace the coercive aspects of the state
+- the individual has a right to ignore the state
+- there is no alternative
+- there should be no private property in land
+- trade unions should be used as a "bulwark against bosses"
+- economy organised primarily in free worker co-operatives as a replacement for wage-labor
+- a slave is a person who labours under coercion to satisfy another's desires
+- under socialism or communism the individual would be enslaved to the whole community rather than to a particular master
+- humanitarian impulses must be resisted as nothing should be allowed to interfere with nature's laws, including the social struggle for existence
+- competition means (biological competition)
+- competition means competing individuals or firms improve the well being of the rest of society
+- voluntary association and informal care to aid those in need, rather than relying on government bureaucracy or force
+- private charitable efforts would be wise to avoid encouraging the formation of new dependent families by those unable to support themselves without charity
+- races shouldn't mix...
+*** subway map to anarchism
+http://i.imgur.com/v9jOzQ8.png
+-> gay liberation -> queer anarchism
+-> anti-organized religion -> religious anarchism
+-> anti-violence -> anarcho-pacifism
+-> individualism -> individualist anarchism
+-> individualism -> private property -> wages according to labor -> free market -> boston anarchism
+-> individualism -> violence -> no natural rights -> obtain property through might -> egoism
+-> violence -> class conflict -> informal organization -> insurrectionary anarchism
+-> violence -> abolition of work -> anti-ideology -> anti-morality -> post-left anarchism
+-> anti-patriarchy -> anarcha-feminism
+-> environmental protection -> green anarchism
+-> environmental protection -> animal liberation -> veganarchism
+-> environmental protection -> collectivism -> eco-villages -> eco-anarchism
+-> environmental protection -> collectivism -> abandon all technology -> anarcho-primitivism
+-> collectivism -> mutual aid -> socialist anarchism
+-> collectivism -> mutual aid -> abolish wages -> labor movement -> anarcho-syndicalism
+-> collectivism -> mutual aid -> marxist -> abolish wages -> communes -> no private property -> anarcho-communism
+-> collectivism -> mutual aid -> marxist -> wages according to time contribution -> collectively owned property -> collectivist anarchism
+*** mutualism
+- Mutualist anarchism is concerned with reciprocity, free association, voluntary contract, federation, and credit and currency reform
+- The primary aspects of mutualism are free association, mutualist credit, contract (or federation/confederation), and gradualism (or dual-power). Mutualism is often described by its proponents as advocating an "anti-capitalist free market".
+- a market without government intervention drives prices down to labor-costs, eliminating profit, rent, and interest according to the labor theory of value
+- Firms would be forced to compete over workers just as workers compete over firms, raising wages
+- a society where each person might possess a means of production, either individually or collectively, with trade representing equivalent amounts of labor in the free market
+- Integral to the scheme was the establishment of a mutual-credit bank which would lend to producers at a minimal interest rate only high enough to cover the costs of administration
+- based on a labor theory of value which holds that when labour or its product is sold, in exchange, it ought to receive goods or services embodying "the amount of labor necessary to produce an article of exactly similar and equal utility"
+- oppose the idea of individuals receiving an income through loans, investments, and rent, as they believe these individuals are not labouring
+- Insofar as they ensure the workers right to the full product of their labor, mutualists support markets and private property in the product of labor. However, they argue for conditional titles to land, whose private ownership is legitimate only so long as it remains in use or occupation (which Proudhon called "possession.")
+- Proudhon's Mutualism supports labor-owned cooperative firms and associations for "we need not hesitate, for we have no choice. . . it is necessary to form an ASSOCIATION among workers . . . because without that, they would remain related as subordinates and superiors, and there would ensue two . . . castes of masters and wage-workers, which is repugnant to a free and democratic society" and so "it becomes necessary for the workers to form themselves into democratic societies, with equal conditions for all members, on pain of a relapse into feudalism.
+- As for capital goods (man-made, non-land, "means of production"), mutualist opinion differs on whether these should be commonly managed public assets or private property.
+- some mutualists have abandoned the labor theory of value, and prefer to avoid the term "socialist."
+- Over matters which are purely personal, as for example, moral conduct, the individual is sovereign, as well as over that which he himself produces
+- "mutuality" in marriage – the equal right of a woman to her own personal freedom and property" and feminist and spiritualist tendencies.
+- Proudhon opposed government privilege that protects capitalist, banking and land interests, and the accumulation or acquisition of property (and any form of coercion  that led to it) which he believed hampers competition and concentrates wealth. 
+- Proudhon favored the right of individuals to retain the product of their labor as their own property, but believed that all other property was illegitimate. Thus, he saw private property as both essential to liberty and a road to tyranny, the former when it resulted from labor and was required for labor and the latter when it resulted in/from exploitation (profit, interest, rent, tax). He generally termed the former "possession" and the latter "property." For large-scale industry, he supported workers associations to replace wage labor and opposed land ownership.
+- Proudhon maintained that workers should retain the entirety of what they produce, and that monopolies on credit and land are the forces that prohibit this. He advocated an economic system he called mutualism that included possession and exchange of private property but without profit.
+- Proudhon originated mutualism, an anarchist school of thought, envisioning a society where each person might possess a means of production, either individually or collectively, with trade representing equivalent amounts of labor in the free market. Integral to the scheme was the establishment of a mutual-credit bank which would lend to producers at an interest rate only high enough to cover the costs of administration.
+- Mutualism is based on a labor theory of value  which holds that when labor or its product is sold, in exchange, it ought to receive goods or services embodying "the amount of labor necessary to produce an article of exactly similar and equal utility".
+- Insofar as they ensure workers' rights to the full product of their labor, mutualists support markets and private property. However, they argue for conditional title to land, whose private ownership is legitimate only so long as it remains in use or occupation (which Proudhon called "possession.")[21] Proudhon's Mutualism supports labor-owned cooperative firms and associations
+- Mutualist opinions differs on whether capital goods (man-made, non-land, "means of production)" should be commonly managed public assets or private property.
+- "some mutualists have abandoned the labor theory of value, and prefer to avoid the term "socialist." But they still retain some cultural attitudes, for the most part, that set them off from the libertarian right."(from the Mutualist FAQ - are mutualists socialists? - might be worth checking out)
+- Although mutualism is similar to the economic doctrines of the 19th-century American individualist anarchists, unlike them, mutualism is in favor of large industries. Therefore, mutualism has been retrospectively characterized sometimes as being a form of individualist anarchism, and as ideologically situated between individualist and collectivist forms of anarchism as well. Proudhon himself described the "liberty" he pursued as "the synthesis of communism and property."
+- Mutualists have distinguished mutualism from state socialism, and do not advocate state control over the means of production.
+- Mutualists argue that most of the economic problems associated with capitalism each amount to a violation of the cost principle, or as Josiah Warren interchangeably said, "Cost the limit of price." It was inspired by the labor theory of value, which was popularized, though not invented, by Adam Smith in 1776 (Proudhon mentioned Smith as an inspiration). The labor theory of value holds that the actual price of a thing (or the "true cost") is the amount of labor that was undertaken to produce it. In Warren's terms, cost should be the "limit of price," with "cost" referring to the amount of labor required to produce a good or service. Anyone who sells goods should charge no more than the cost to himself of acquiring these goods.
+*** social anarchism
+*** collectivist anarchism
+- revolutionary
+- sees individual freedom as conceptually connected with social equality and emphasize community and mutual aid
+- unlike mutualists, collectivist anarchists oppose all private ownership of the means of production, instead advocating that ownership be collectivized
+- to be initiated by small cohesive elite group through acts of violence, or "propaganda by the deed," which would inspire the workers to revolt and forcibly collectivize the means of production
+- Workers would be compensated for their work on the basis of the amount of time they contributed to production, rather than goods being distributed "according to need" as in anarcho-communism
+- collectivist anarchists advocated compensation for labor, some held out the possibility of a post-revolutionary transition to a communist system of distribution according to need
+- opposed the Marxist dictatorship of the proletariat, despite Marxism striving for a collectivist stateless society
+- Some collectivist anarchists do not oppose the use of currency
+- These salaries would be used to purchase commodities in a communal market
+- contrasts with anarcho-communism where wages would be abolished, and where individuals would take freely from a storehouse of goods "to each according to his need"
+- Many modern-day collectivist anarchists hold their form of anarchism as a permanent society rather than a carryover to anarcho-communism or a gift economy
+- Some collectivist anarchists such as proponents of participatory economics believe in remuneration and a form of credit but do not believe in money or markets
+- collectivist anarchists believe that the economy and most or all property should be collectively owned by society while anarchist communists by contrast believe that the concept of ownership should be rejected by society and replaced with the concept of usage
+- Collectivist anarchists often favor using a form of currency to compensate workers according to the amount of time spent contributing to society and production while Anarcho-communists believe that currency and wages should be abolished all together and goods should be distributed "to each according to his or her need"
+- saw their economic order as evolving into free communism
+- At this time (the 1880s), the anarcho-communists stressed local cells of anarchist militants, generally opposed trade unionism as were characterized by a degree of anti-organisation
+*** anarcho-communism
+- advocates the abolition of the state, markets, money, private property (while retaining respect for personal property), and capitalism in favor of common ownership of the means of production,[34][35] direct democracy and a horizontal network of voluntary associations and workers' councils  with production and consumption based on the guiding principle: "from each according to his ability, to each according to his need"
+- Some forms of anarchist communism such as insurrectionary anarchism are strongly influenced by egoism and radical individualism, believing anarcho-communism is the best social system for the realization of individual freedom
+- Most anarcho-communists view anarcho-communism as a way of reconciling the opposition between the individual and society
+- It is Proudhon's philosophy that was explicitly rejected by Joseph Dejacque in the inception of anarchist-communism, with the latter asserting directly to Proudhon in a letter that "it is not the product of his or her labour that the worker has a right to, but to the satisfaction of his or her needs, whatever may be their nature."
+*** pro-organizationalist anarcho-communism
+*** anti-organizationalist / insurrectionary anarcho-communism
+https://en.wikipedia.org/wiki/Insurrectionary_anarchism
+*** anarcho-syndicalism
+- posits radical trade unions as a potential force for revolutionary social change, replacing capitalism and the state with a new society, democratically self-managed by the workers
+- seek to abolish the wage system and private ownership of the means of production, which they believe lead to class divisions
+- Important principles of syndicalism include workers' solidarity, direct action (such as general strikes and workplace recuperations), and workers' self-management
+- anarcho-syndicalists often subscribe to communist or collectivist anarchism
+- propose labour organization as a means to create the foundations of a non-hierarchical anarchist society within the current system and bring about social revolution
+- anarcho-syndicalist economic systems often take the form of either a collectivist anarchist economic system or an anarcho-communist economic system
+*** individualist anarchism
+- Individualist anarchism refers to several traditions of thought within the anarchist movement that emphasize the individual and his or her will over external determinants such as groups, society, traditions, and ideological systems
+- emphasize personal autonomy and the rational nature of human beings
+- emphasizes the individual and their will over any kinds of external determinants such as groups, society, traditions, and ideological systems
+- The great majority of Americans during this time were farmers working their own land, primarily for their own needs." and so "Individualist anarchism is clearly a form of artisanal socialism ... while communist anarchism and anarcho-syndicalism are forms of industrial (or proletarian) socialism.
+- The concentration on the individual and their will in preference to any construction such as morality, ideology, social custom, religion, metaphysics, ideas or the will of others
+- rejection of or reservations about the idea of revolution, seeing it as a time of mass uprising which could bring about new hierarchies. Instead they favor more evolutionary methods of bringing about anarchy through alternative experiences and experiments and education which could be brought about today
+- view that relationships with other persons or things can be in one's own interest only and can be as transitory and without compromises as desired since in individualist anarchism sacrifice is usually rejected. In this way, Max Stirner recommended associations of egoists. Individual experience and exploration therefore is emphasized.
+- Another important tendency within individualist anarchist currents emphasizes individual subjective exploration and defiance of social conventions.
+- individualist anarchism remained largely a bohemian lifestyle, most conspicuous in its demands for sexual freedom ('free love') and enamored of innovations in art, behavior, and clothing.". In this way free love currents and other radical lifestyles such as naturismhad popularity among individualist anarchists
+- individualist anarchism "under its iconoclastic, antiintelectual, antitheist run, which goes against all sacralized ideas or values it entailed, a philosophy of life which could be considered a reaction against the sacred gods of capitalist society. Against the idea of nation, it opposed its internationalism. Against the exaltation of authority embodied in the military institution, it opposed its antimilitarism. Against the concept of industrial civilization, it opposed its naturist vision"
+- On the issue of violence opinions have gone from a violentist point of view mainly exemplified by illegalism and insurrectionary anarchism to one that can be called anarcho-pacifis
+- godwinian individualist anarchism - actually believed in a utilitarian gift economy? and some other weird stuff
+- proudhonian anarchism - favoured a right of individuals to retain the product of their labour as their own property, but believed that any property beyond that which an individual produced and could possess was illegitimate. Thus, he saw private property as both essential to liberty and a road to tyranny, the former when it resulted from labour and was required for labour and the latter when it resulted in exploitation (profit, interest, rent, tax). He generally called the former "possession" and the latter "property."
+- viewed sexual freedom as a clear, direct expression of an individual's self-ownership
+- Free love particularly stressed women's rights since most sexual laws, such as those governing marriage and use of birth control, discriminated against women.
+- free love, freethrought (anti-Christian, anti-clerical movement, whose purpose was to make the individual politically and spiritually free to decide for himself on religious matters), anarcho-naturism
+- Naturist individualist anarchists saw the individual in his biological, physical and psychological aspects and avoided, and tried to eliminate, social determinations
+- 19th century individualist anarchists espoused the labor theory of value
+-  Bookchin claimed that individualist anarchism supports only negative liberty and rejects the idea of positive liberty
+- Michael Freeden identifies four broad types of individualist anarchism. He says the first is the type associated with William Godwin that advocates self-government with a "progressive rationalism that included benevolence to others." The second type is the amoral self-serving rationality of Egoism, as most associated with Max Stirner. The third type is "found in Herbert Spencer's early predictions, and in that of some of his disciples such as Donisthorpe, foreseeing the redundancy of the state in the source of social evolution." The fourth type retains a moderated form of egoism and accounts for social cooperation through the advocacy of market relationships.
+*** american individualist anarchism
+- (Kevin Carson on american individualist anarchism) Unlike the rest of the socialist  movement, the individualist anarchists believed that the natural wage of labor in a free market was its product, and that economic exploitation could only take place when capitalists and landlords harnessed the power of the state in their interests. Thus, individualist anarchism was an alternative both to the increasing statism of the mainstream socialist movement, and to a classical liberal movement that was moving toward a mere apologetic for the power of big business
+- josiah warren - 'cost the limit of price' / time store
+- anarchist individualists "are firm in the idea that the system of employer and employed, buying and selling, banking, and all the other essential institutions of Commercialism, centred upon private property, are in themselves good, and are rendered vicious merely by the interference of the State."
+- American individualists had no difficulty accepting the concepts that "one man employ another" or that "he direct him," in his labor but rather demanded that "all natural opportunities requisite to the production of wealth be accessible to all on equal terms and that monopolies arising from special privileges created by law be abolished."
+- disagreed amongst each other on various issues including intellectual property rights and possession versus property in land
+- American individualist anarchists accept that free competition results in unequal wealth distribution, but they "do not see that as an injustice."
+- American individualist anarchism "stresses the isolation of the individual – his right to his own tools, his mind, his body, and to the products of his labor.
+*** european individualist anarchism
+- In European individualist anarchism a different social context helped the rise of European individualist illegalism and as such "The illegalists were proletarians who had nothing to sell but their labour power, and nothing to discard but their dignity; if they disdained waged-work, it was because of its compulsive nature. If they turned to illegality it was due to the fact that honest toil only benefited the employers and often entailed a complete loss of dignity, while any complaints resulted in the sack; to avoid starvation through lack of work it was necessary to beg or steal, and to avoid conscription into the army many of them had to go on the run."
+- And so a European tendency of individualist anarchism advocated violent individual acts of individual reclamation, propaganda by the deed and criticism of organization. Such individualist anarchist tendencies include French illegalism and Italian anti-organizational insurrectionarism
+- French individualist anarchism was characterized by an eclectic set of currents of thought and practices which included freethought, naturism, free love, anti-militarism and illegalism.
+- bellegarrigue - getting some whiffs of objectivism - "I deny everything; I affirm only myself.... I am, that is a positive fact. All the rest is abstract and falls into Mathematical X, into the unknown.... There can be on earth no interest superior to mine, no interest to which I owe even the partial sacrifice of my interests." Yet in apparent contradiction, Bellegarrigue adhered to the central anarchist tradition in his idea of society as necessary and natural and as having "a primordial existence"
+- French individualist anarchists espoused diverse positions. For example, Emile Armand rejected violence and embraced mutualism while advocating free love. Albert Libertad and Zo d'Axa championed violent propaganda by the deed  while adhering to communitarianism or anarcho-communism and rejecting work. Han Ryner on the other side conciled anarchism with stoicism. Nevertheless, French individualist circles displayed a strong sense of personal libertarianism and experimentation. Anarchist naturism and free love concepts influenced individualist anarchists circles in France and Spain and expanded to the rest of anarchism.
+- Freethought as a philosophical position and as activism was important in french individualist anarchism. 
+- Emile Armand was an influential French individualist anarchist, free love/polyamory and pacifist/antimilitarist propagandist and activist.
+- Armand contrasted his IA with social anarchist currents, rejecting revolution. He argued that waiting for revolution meant delaying the enjoyment of liberty until the masses gained awareness and will. Instead he advocated living under one's own conditions in the present time, revolting against social conditioning in daily life and living with those with an affinity to oneself in accord to the values and desire they share. He says the individualist is a "presentist" and "he could not, without bad reasoning and illogic, think of sacrificing his being, or his having, to the coming of a state of things he will not immediately enjoy". He applies this rule to friendship, love, sexual encounters and economic transactions. He adheres to an ethics of reciprocity and advocated propagandizing one's values to enable association with others to improve the chances of self-realization
+- Charles-Auguste Bontemps - was a prolific author mainly in the anarchist, freethinking, pacifist and naturist press of the time. His view on anarchism was based around his concept of "Social Individualism" on which he wrote extensively. He defended an anarchist perspective which consisted on "a collectivism of things and an individualism of persons."
+- Federico Urales was an important catalan individualist anarchist who edited La Revista Blanca. The individualist anarchism of Urales was influenced by Auguste Comte and Charles Darwin. He saw science and reason as a defense against blind servitude to authority. He was critical of influential individualist thinkers such as Nietzsche and Stirner for promoting an asocial egoist individualism and instead promoted an individualism with solidarity as a way to guarantee social equality and harmony. In the subject of organization he was highly critical of anarcho-syndicalism as he saw it plagued by too much bureaucracy and thought that it tended towards reformism. Instead he favored small groups based on ideological alignement
+*** egoist anarchism
+- rejects devotion to "a great idea, a cause, a doctrine, a system, a lofty calling"
+- has no political calling but rather "lives themselves out" without regard to "how well or ill humanity may fare thereby"
+- the only limitation on the rights of the individual is his power to obtain what he desires
+- most commonly accepted social institutions – including the notion of State, property as a right, natural rights in general, and the very notion of society – were mere spooks in the mind
+- 
+- wanted to "abolish not only the state but also society as an institution responsible for its members"
+- "union of egoists"
+- concept of "egoistic property" not only rejects moral restraint on how one obtains and uses things, but includes other people as well
+- (benjamin tucker) Tucker said that there were only two rights, "the right of might" and "the right of contract"
+- Tucker rejected natural rights which had long been considered the foundation of libertarianism
+- (james walker) egosim "implies a rethinking of the self-other relationship, nothing less than "a complete revolution in the relations of mankind" that avoids both the "archist" principle that legitimates domination and the "moralist" notion that elevates self-renunciation to a virtue
+- Walker describes himself as an "egoistic anarchist" who believed in both contract and cooperation as practical principles to guide everyday interactions."
+- For Walker the egoist rejects notions of duty and is indifferent to the hardships of the oppressed whose consent to their oppression enslaves not only them, but those who do not consent.
+- The egoist comes to self-consciousness, not for the God's sake, not for humanity's sake, but for his or her own sake.
+- Cooperation and reciprocity are possible only among those who are unwilling to appeal to fixed patterns of justice in human relationships and instead focus on a form of reciprocity, a union of egoists, in which person each finds pleasure and fulfillment in doing things for others
+- what really defines egoism is not mere self-interest, pleasure, or greed; it is the sovereignty of the individual, the full expression of the subjectivity of the individual ego
+- "private property is a spook which "lives by the grace of law" and it "becomes 'mine' only by effect of the law"
+*** boston anarchists
+- 
+*** illegalism
+- openly embraced criminality as a lifestyle
+- found justification in Stirner's philosophy
+- usually did not seek moral basis for their actions, recognizing only the reality of "might" rather than "right"
+- illegal acts were done simply to satisfy personal desires and needs, not for some greater ideal, although some committed crimes as a form of propaganda of the deed
+- The illegalists embraced direct action and propaganda of the deed.
+- The illegalists broke from anarchists like Clément Duval and Marius Jacob who justified theft with a theory of la reprise individuelle (individual reclamation). Instead, the illegalists argued that their actions required no moral basis; illegal acts were performed not in the name of a higher ideal, but in pursuit of one's own desires
+- an outgrowth of Stirner's Individualist anarchism
+- Influenced by Stirner's egoism as well as Proudhon's "property is theft", Clément Duval and Marius Jacob proposed the theory of individual reclamation.
+- broke from anarchists like Clément Duval and Marius Jacob who justified theft with a theory of la reprise individuelle (Eng: individual reclamation). Instead, the illegalists argued that their actions required no moral basis - illegal acts were taken not in the name of a higher ideal, but in pursuit of one's own desires
+*** agorism
+- Agorism was developed from anarcho-capitalism in the late 20th century
+- Agorists are market anarchists
+- The goal of agorists is a society in which all "relations between people are voluntary exchanges – a free market."
+- Most Agorists consider that property rights are natural rights deriving from the primary right of self-ownership
+- not opposed in principle to collectively held property if individual owners of the property consent to collective ownership by contract or other voluntary mutual agreement.
+- Agorists are divided on the question of intellectual property rights
+*** existentialist anarchism
+- David Goodway writes "Here we have the egoism of Max Stirner assimilated in the anarchist communism of Peter Kropotkin
+- Some observers believe existentialism forms a philosophical ground for anarchism
+- there is a close link between the existentialists' stress on the individual, free choice, and moral responsibility and the main tenets of anarchism
+- 
+*** religious anarchism
+- many anarchists have traditionally been skeptical of and opposed to organized religion
+- Christian anarchists believe that biblical teachings give credence to anarchist philosophy
+*** anarcho-pacifism
+- completely rejects the use of violence in any form for any purpose
+- advocacy of nonviolent resistance
+- rejects propaganda by the deed
+- anarchism must by nature be nonviolent since it is, by definition, opposition to coercion and force
+- since the state is inherently violent, meaningful pacifism must likewise be anarchistic
+*** anarchism without adjectives
+- refers to an unhyphenated form of anarchism, that is, a doctrine without any qualifying labels such as communist, collectivist, mutualist, or individualist
+- an attitude that tolerated the coexistence of different anarchist schools
+- emphasizes harmony between various anarchist factions and attempts to unite them around their shared anti-authoritarian beliefs
+- only different methods of economy, the practical possibilities of which have yet to be tested, and that the first objective is to secure the personal and social freedom of men no matter upon which economics basis this is to be accomplished.
+- Socialism and Communism both demand a degree of joint effort and administration which would beget more regulation than is wholly consistent with ideal Anarchism (Voltairine de Cleyre)
+- Individualism and Mutualism, resting upon property, involve a development of the private policeman not at all compatible with my notion of freedom (Voltairine de Cleyre)
+- There is nothing un-Anarchistic about any of [these systems] until the element of compulsion enters and obliges unwilling persons to remain in a community whose economic arrangements they do not agree to. (Voltairine de Cleyre)
+- anarchists should not impose a preconceived economic plan on anyone—even in theory
+- tended either to reject all particular anarchist economic models as faulty, or take a pluralist position of embracing them all to a limited degree in order that they may keep one another in check
+*** synthesist anarchism
+- tries to join anarchists of different tendencies under the principles of anarchism without adjectives
+- specifically was trying to join anarcho-syndicalism, libertarian communism, and anarchist individualism
+*** green anarchism / eco-anarchism
+- school of thought within anarchism which puts an emphasis on environmental issues
+*** social ecology
+- considered a kind of green anarchist
+- considered a kind of socialist anarchist
+- present ecological problems  are rooted in deep-seated social problems, particularly in dominatory hierarchical political and social systems. These have resulted in an uncritical acceptance of an overly competitive grow-or-die philosophy
+- this cannot be resisted by individual action such as ethical consumerism but must be addressed by more nuanced ethical thinking and collective activity grounded in radical democratic ideals
+- The complexity of relationships between people and with nature is emphasised, along with the importance of establishing social structures that take account of this
+- often criticize the main currents of anarchism for their focus and debates about politics and economics instead of a focus on eco-system (human and environmental)
+- promotes libertarian municipalism and green technology
+*** anarcho-primitivists
+- often criticize mainstream anarchism for supporting civilization and modern technology which they believe are inherently based on domination and exploitation
+- instead advocate the process of rewilding or reconnecting with the natural environment
+*** veganarchism
+- political philosophy of veganism (more specifically animal liberation) and green anarchism
+- encompasses viewing the state as unnecessary and harmful to both human and animals, whilst practising a vegan diet
+*** anarcho-naturism
+- union of anarchist and naturist philosophies
+- mainly it had importance within individualist anarchist circles... why?
+- advocated vegetarianism, free love, nudism, small ecovillages, hiking and an ecological world view
+- Naturist individualist anarchists saw the individual in his biological, physical and psychological aspects and tried to eliminate social determinations
+- By shunning the humble garment of an exploited person, (garments which, in my opinion, are the result of all the laws devised to make our lives bitter), we feel there no others left but just the natural law
+- Zisly vividly criticized progress and civilization, which he regarded as 'absurd, ignoble, and filthy.' He openly opposed industrialization, arguing that machines were inherently authoritarian, defended nudism, advocated a non-dogmatic and non-religious adherence to the 'laws of nature,' recommended a lifestyle based on limited needs and self-sufficiency, and disagreed with vegetarianism, which he considered 'anti-scientific.'"
+- some vegetarian, some "vegetalian" (vegan), some omnivore
+- Naturism promoted an ecological worldview, small ecovillages, and most prominently nudism as a way to avoid the artificiality of the industrial mass society of modernity
+*** anarcho-primitivism
+- an anarchist critique of the origins and progress of civilization
+- the shift from hunter-gatherer to agricultural subsistence gave rise to social stratification, coercion, and alienation
+- advocate a return to non-"civilized" ways of life through deindustrialisation, abolition of the division of labour or specialization, and abandonment of large-scale organization technologies
+- There are other non-anarchist forms of primitivism, and not all primitivists point to the same phenomenon as the source of modern, civilized problems
+- often distinguished by their focus on the praxis of achieving a feral state of being through "rewilding"
+- Many traditional anarchists reject the critique of civilization
+- random redditor - "Anarcho-Primitivism does not mean "abandon all technology", it's far more nuanced than that, and technology is but one factor relevant to A-P, others including critiques of symbolic culture, domestication, sedentism, surplus, and urbanization. Anarcho-naturism is an older but related current in Green Anarchist thought."
+*** anarcha-feminism
+- synthesizes radical feminism and anarchism that views patriarchy (male domination over women) as a fundamental manifestation of involuntary hierarchy which anarchists often oppose
+- criticize and advocate the abolition of traditional conceptions of family, education and gender roles
+- especially critical of marriage
+- criticize the views of some of the traditional anarchists such as Mikhail Bakunin who have believed that patriarchy is only a minor problem and is dependent only on the existence of the state and capitalism and will disappear soon after such institutions are abolished. Anarcha-feminists by contrast view patriarchy as a fundamental problem in society and believe that the feminist struggle against sexism and patriarchy is an essential component of the anarchist struggle against the state and capitalism.
+*** platformism
+*** anarcho-queer
+- suggests anarchism as a solution to the issues faced by the LGBT community, mainly heteronormativity, homophobia, transphobia and biphobia
+*** post-left anarchism
+- promotes a critique of anarchism's relationship to traditional leftism
+- seek to escape the confines of ideology in general also presenting a critique of organizations and morality
+- Influenced by the work of Max Stirner and by the Situationist International, post-left anarchy is marked by a focus on social insurrection and a rejection of leftist social organisation
+- influenced profoundly by egoism in aspects such as the critique of ideology
+- a shift among Euro-American anarchists away from social anarchism and toward individualist or lifestyle anarchism. Indeed, lifestyle anarchism today is finding its principal expression in spray-can graffiti, post-modernist nihilism, antirationalism, neo-primitivism, anti-technologism, neo-Situationist 'cultural terrorism', mysticism, and a 'practice' of staging Foucauldian 'personal insurrections'."
+- (According to Bob Black) - "It is, unlike Bookchinism, "individualistic" in the sense that if the freedom and happiness of the individual – i.e., each and every really existing person, every Tom, Dick and Murray – is not the measure of the good society, what is?"
+- some random person on reddit - "the anti-ideology and anti-morality pillars of post-left anarchism originate in egoism"
+*** post-anarchism
+- hybrid of post-structuralism and anarchism
+- Like existentialism, these approaches reject essentialist or reductionist notions, and are critical of dominant Western philosophy and culture, rejecting previous systems of knowledge based on the human knower. Since the 1980s, therefore, a growing number of anarchist philosophies, represented by the term "post-anarchism," have used post-structuralist and postmodernist approaches
+- Saul Newman has utilized prominently Max Stirner and Friedrich Nietzsche along with such thinkers as Jacques Lacan in his post-anarchist works. Newman criticizes classical anarchists for assuming an objective "human nature" and a natural order
+- She believes anarchism is a philosophy based on "existential individualism" that emphasizes the freedom of the individual, and defines "existential individualism" as the belief in freedom for freedom's sake, as opposed to "instrumental individualism," which more often exists in liberal works and is defined as freedom to satisfy individual interests without a meaningful belief in freedom. But she argues, like post-anarchists, that classical anarchist theory has asserted human beings as naturally cooperative, and that this fixed human nature presents many problems for anarchism as it contradicts its commitment to free will and the individual. For anarchism to be fundamentally individualist, she argues, it must look to existentialism for a more "fluid conceptualization of human nature."
+*** insurrectionary anarchism
+- apparently a form of individualist anarchism
+- emphasizes the theme of insurrection (revolution, rebellion, uprising) within anarchist practice
+- opposes formal organizations such as labor unions and federations that are based on a political programme and periodic congresses.
+- support informal organization and small affinity group based organization
+- put value in attack, permanent class conflict, and a refusal to negotiate or compromise with class enemies
+- Contemporary insurrectionary anarchism inherits the views and tactics of anti-organizational anarcho-communism and illegalism
+- Egoism has had a strong influence on insurrectionary anarchism
+- In the game of insurgence—a lived guerilla war game—it is strategically necessary to use identities and roles. Unfortunately, the context of social relationships gives these roles and identities the power to define the individual who attempts to use them. So I, Feral Faun, became ... an anarchist ... a writer ... a Stirner-influenced, post-situationist, anti-civilization theorist ... if not in my own eyes, at least in the eyes of most people who've read my writings
+- The workers who, during a wildcat strike, carried a banner saying, 'We are not asking for anything' understood that the defeat is in the claim itself ('the claim against the enemy is eternal'). There is no alternative but to take everything. As Stirner said: 'No matter how much you give them, they will always ask for more, because what they want is no less than the end of every concession'
+- it is the risen people who are the real agent and not the working class organised in the enterprise (the cells of the capitalist mode of production) and seeking to assert itself as labour power, as a more 'rational' industrial body or social brain (manager) than the employers
+- So "between 1880 and 1890" with the "perspective of an immanent revolution", who was "opposed to the official workers' movement, which was then in the process of formation (general Social Democratisation). They were opposed not only to political (statist) struggles but also to strikes which put forward wage or other claims, or which were organised by trade unions." But "While they were not opposed to strikes as such, they were opposed to trade unions and the struggle for the eight-hour day. This anti-reformist tendency was accompanied by an anti-organisational tendency, and its partisans declared themselves in favour of agitation amongst the unemployed for the expropriation of foodstuffs and other articles, for the expropriatory strike and, in some cases, for 'individual recuperation' or acts of terrorism."
+- contemporary insurrectionary anarchism - "attack" rather than mediation, pacification, sacrifice, accomodation, or compromise; revolution as a "concrete event"; self-management of struggle; temporary affinity groups instead of permanent organizations; transcendence of dichotomy between the individual and the rest of society
+- "Insurrection begins with the desire of individuals to break out of constrained and controlled circumstances, the desire to reappropriate the capacity to create one's own life as one sees fit." But the view that "Individuality can only flourish where equality of access to the conditions of existence is the social reality. This equality of access is communism; what individuals do with that access is up to them and those around them. Thus there is no equality or identity of individuals implied in true communism.
+*** left-wing market anarchism
+- stress the value of radically free markets, termed freed markets to distinguish them from the common conception which these libertarians believe to be riddled with statist and capitalist privileges
+- strongly affirm the classical liberal ideas of self-ownership and free markets, while maintaining that, taken to their logical conclusions, these ideas support strongly anti-corporatist, anti-hierarchical, pro-labor positions in economics; anti-imperialism in foreign policy; and thoroughly liberal or radical views regarding such cultural issues as gender, sexuality, and race
+- tends to be rooted either in the mutualist economics conceptualized by Pierre-Joseph Proudhon, American individualist anarchism, or in a left-wing interpretation or extension of the thought of Murray Rothbard
+- a form of left-libertarianism, individualist anarchism, and libertarian socialism
+- stress both individual freedom and social justice
+- Unlike right-libertarians, they believe that neither claiming nor mixing one's labor with natural resources is enough to generate full private property rights, and maintain that natural resources (land, oil, gold, trees) ought to be held in some egalitarian  manner, either unowned or owned collectivel
+- Those left-libertarians who support private property do so under the condition that recompense is offered to the local community.
+*** anarcho-capitalism
+- advocates the elimination of the state in favour of individual sovereignty in a free market
+- developed from radical anti-state libertarianism and individualist anarchism, drawing from Austrian School economics, study of law and economics, and public choice theory
+- There is a strong current within anarchism which does not believe that anarcho-capitalism can be considered to be a part of the anarchist movement due to the fact that anarchism has historically been an anti-capitalist movement and for definitional reasons which see anarchism as incompatible with capitalism
+- some believe that the modern movement of anarcho-capitalism is the result of simply removing the labor theory of value from ideas of the 19th-century American individualist anarchists
+- As economic theory changed, the popularity of the labor theory of classical economics was superseded by the subjective theory of value of neo-classical economics
+-  Murray Rothbard, a student of Ludwig von Mises, combined the Austrian school economics of his teacher with the absolutist views of human rights and rejection of the state he had absorbed from studying the individualist American anarchists of the 19th century
+- In the mid-1950s Rothbard wrote an article under a pseudonym, saying that "we are not anarchists ... but not archists either ... Perhaps, then, we could call ourselves by a new name: nonarchist - LOL
+*** anarcho-transhumanism
+- takes traditional and modern anarchism, typically anarcho-syndicalism and combines it with transhumanism and post-humanism
+- described as a liberal democratic revolution, at its core the idea that people are happiest when they have rational control over their lives. Reason, science, and technology provide one kind of control, slowly freeing us from ignorance, toil, pain, disease and limited lifespans (aging)
+*** contemporary anarchism
+- Anarchism is a political philosophy which holds the state to be undesirable, unnecessary, or harmful. However, others argue that while anti-statism is central, it is inadequate to define anarchism solely on this basis. Therefore, they argue instead that anarchism entails opposing authority or hierarchical organization in the conduct of human relations, including, but not limited to, the state system.
+- Proponents of this form of anarchism advocate stateless societies based on non-hierarchical free associations
+- "There is no doubt that 60s anarchism was libertarian and linked to the sexual revolution, liberation of the erotic instincts and what Herbert Marcuse called "nonrepressive sublimation". Yet, contemporary anarchism can be seen as a powerful critique of the pseudo-libertarianism of contemporary neo-liberalism, where the sexual revolution has turned the culture industry into the sex industry - ask yourself, is there today anything less transgressive and more normalizing than pornography? One might say that contemporary anarchism is about responsibility, whether sexual, ecological or socio-economic; it flows from an experience of conscience about the manifold ways in which the West ravages the rest; it is an ethical outrage at the yawning inequality, impoverishment and disenfranchisment that is so palpable locally and globally."
+- grew in popularity and influence as part of the anti-war, anti-capitalist, and anti-globalisation movements
+*** freiwirtschaft ("free economy")
+why is this anarchism?
+- All money is issued for a limited period by constant value; Long-term saving requires investment in bonds or stocks
+- All land is commonly owned or else the property of public institutions and can only be rented from the community or from government, respectively, not purchased (similar to Georgism?)
+- free trade
+*** inclusive democracy
+- direct democracy; economic democracy in a stateless, moneyless and marketless economy; self-management (democracy in the social realm); and ecological democracy
+- 'democratic planning' of the economy
+- meant to offer an alternative to neoliberalism and existing forms of socialism (i.e. neither market economy nor state planning)
+- is not openly anarchism, yet anarchism seems the formal category within which he works, given his commitment to direct democracy, municipalism and abolition of state, money and market economy
+- synthesis of classical democracy and socialist, although it also encompasses radical green, feminist, and liberation movements in the South
+- the world, at the beginning of the new millennium, faces a multi-dimensional crisis (economic, ecological, social, cultural and political), which is shown to be caused by the concentration of power in the hands of various elites. This is interpreted to be the outcome of the establishment, in the last few centuries, of the system of market economy (in the Polanyian sense), Representative democracy, and the related forms of hierarchical structure. Therefore, an inclusive democracy is seen not simply as a utopia, but perhaps as the only way out of the crisis, based on the equal distribution of power at all levels.
+- federations of "demoi", units of ~30k people
+- equal political, economic, ... power
+- community controls the means of production
+- mentions that this is different from "collectivist capitalism" like worker's control
+- macroeconomic decisions made by community, microeconomic made by individuals in an "artificial market" via labor vouchers (which cannot be used as a general medium of exchange or store wealth) (apparently this is similar to mutualism)
+- requires demotic self-reliance, demotic ownership of the means of production, and confederal allocation of resources
+- key difference from parecon - whole community makes economic decisions rather than vocationally-oriented groups
+- distinguishes between basic and non-basic needs - renumeration according to need for basic needs, according to effort for non-basic needs
+- reject the traditional socialist adoption of the labour theory of value as they believe it cannot be used as the basis for allocating scarce resources. The reason given is that even if the labour theory of value can give a (partial) indication of availability of resources, it certainly cannot be used as a means to express consumers’ preferences
+- wikipedia article isn't super clear... maybe come back to it
+*** anarchist economics
+see the wiki article... lots of "methods" to include
+- classical: mutualism, collectivist anarchism, anarchist communism
+- post-classical: parecon, inclusive democracy, left-wing market anarchism, ancap
+- wage slavery
+- alternate currencies
+- gift economy
+- theories of value
+- economic pluralism
+- economic democracy
+** liberalism
+*** libertarianism
+**** geolibertarianism
+**** objectivism
+** communism
+*** communist egoism
+- The perspective of communist egoism is the perspective of that selfishness which desires nothing so much as other selves, of that egoism which wants nothing so much as other egos; of that greed which is greedy to love—love being the 'total appropriation' of man by man
+** various "techno-" and "transhuman" things
+where to find a list / enumeration of these things?
+https://en.wikipedia.org/wiki/Transhumanism ?
+http://ieet.org/index.php/IEET/biopolitics !!
+*** technoprogressivism
+- social wage, universal healthcare, basic income, ...
+*** singularitarianism
+*** bioconservativism
+*** collaborative e-democracy
+** political obligation
+http://www.iep.utm.edu/poli-obl/#H8
+- there IS a moral obligation to do what the law requires just because the law requires it ("political obligation")
+- there IS NOT a moral obligation to do what the law requires just because the law requires it
+** nationalism
+*** alt-right / neoreactionary / gamergate / etc.
+http://www.breitbart.com/tech/2016/03/29/an-establishment-conservatives-guide-to-the-alt-right/
+https://pbs.twimg.com/media/CzH1TR2WgAAhnW_.jpg
+https://en.wikipedia.org/wiki/Talk:Alt-right
+- not sure they have any new ideas
+- call them what they are - white nationalists, male chauvinists
+- probably some connection to nietzsche / "great men"
+** relevant ideas
+whatever other things you come across
+might make sense to express other ideologies as collections of these
+*** pro-globalization / free trade
+*** social justice
+*** anti-globalization
+*** pro-capitalism
+*** anti-capitalism
+*** anti-socialism
+*** postcapitalism
+*** pro-slavery
+*** anti-slavery
+*** nihilism
+*** existentialism
+*** structuralism
+*** post-structuralism
+- 
+*** post-modernism
+*** anti-individualism
+- what seems to be internal to the individual is to some degree dependent on the social environment. Thus, self-knowledge, intentions, reasoning and moral value may variously be seen as being determined by factors outside the person
+- argue for a limited agreement with the Cartesian model of self-cognition as being Authoritative, but also pointed out that knowledge of self-cognition was not always absolute, allowing for the individuation of thought to originate from both the external content of our environment, as well as from the internal landscape of our self-knowledge as it is still being discovered: "One can know what one's mental events are and yet not know relevant general facts about the conditions for individuating those events. It is simply not true that the cogito gives us knowledge of the individuation conditions of our thoughts which enables us to "shut off" their individuation conditions from the physical environment"
+*** collectivism
+*** individualism
+*** critiques of collectivisim
+*** critiques of individualis
+*** ethical egoism
+*** Anarchism and Friedrich Nietzsche
+https://en.wikipedia.org/wiki/Anarchism_and_Friedrich_Nietzsche
+- Nietzsche's Übermensch was representative of the freedom for people to define the nature of their own existence, as well as the desire for a new human who was to be neither master nor slave.
+- Nietzsche's idealized individual invents his or her own values and creates the very terms under which they excel, taking no regard for God, the state, or the social behavior of 'herds'
+*** might makes right
+*** situationism
+- The intellectual foundations of the Situationist International were derived primarily from anti-authoritarian Marxism and the avant-garde art movements of the early 20th century, particularly Dada  and Surrealism
+- situationist theory represented an attempt to synthesize this diverse field of theoretical disciplines into a modern and comprehensive critique of mid-20th century advanced capitalism
+- recognized that capitalism had changed since Marx's formative writings, but maintained that his analysis of the capitalist mode of production remained fundamentally correct; they rearticulated and expanded upon several classical Marxist concepts, such as his theory of alienation
+- In their expanded interpretation of Marxist theory, the situationists asserted that the misery of social alienation and commodity fetishism were no longer limited to the fundamental components of capitalist society, but had now in advanced capitalism spread themselves to every aspect of life and culture
+- rejected the idea that advanced capitalism's apparent successes—such as technological advancement, increased income, and increased leisure—could ever outweigh the social dysfunction and degradation of everyday life that it simultaneously inflicted
+- Essential to situationist theory was the concept of the spectacle, a unified critique of advanced capitalism of which a primary concern was the progressively increasing tendency towards the expression and mediation of social relations through objects
+- The situationists believed that the shift from individual expression through directly lived experiences, or the first-hand fulfillment of authentic desires, to individual expression by proxy through the exchange or consumption of commodities, or passive second-hand alienation, inflicted significant and far-reaching damage to the quality of human life for both individuals and society
+- Another important concept of situationist theory was the primary means of counteracting the spectacle; the construction of situations, moments of life deliberately constructed for the purpose of reawakening and pursuing authentic desires, experiencing the feeling of life and adventure, and the liberation of everyday life
+
+*** non-primitivist critiques of civilization
+*** master-slave morality
+*** transcendentalism
+*** post-WWII liberal humanism?
+- multiculturalist tolerance and celebration of different identities; solicitude for how your own behavior affects others; concern for the social impact of language, etc. But the history of the term “politically correct” tells a much different story.
+*** positive and negative rights
+*** moral relativism and anti-relativism
