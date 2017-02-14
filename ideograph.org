@@ -242,12 +242,14 @@ http://i.imgur.com/v9jOzQ8.png
 - Proudhon maintained that workers should retain the entirety of what they produce, and that monopolies on credit and land are the forces that prohibit this. He advocated an economic system he called mutualism that included possession and exchange of private property but without profit.
 - Proudhon originated mutualism, an anarchist school of thought, envisioning a society where each person might possess a means of production, either individually or collectively, with trade representing equivalent amounts of labor in the free market. Integral to the scheme was the establishment of a mutual-credit bank which would lend to producers at an interest rate only high enough to cover the costs of administration.
 - Mutualism is based on a labor theory of value  which holds that when labor or its product is sold, in exchange, it ought to receive goods or services embodying "the amount of labor necessary to produce an article of exactly similar and equal utility".
-- Insofar as they ensure workers' rights to the full product of their labor, mutualists support markets and private property. However, they argue for conditional title to land, whose private ownership is legitimate only so long as it remains in use or occupation (which Proudhon called "possession.")[21] Proudhon's Mutualism supports labor-owned cooperative firms and associations
+- Insofar as they ensure workers' rights to the full product of their labor, mutualists support markets and private property. However, they argue for conditional title to land, whose private ownership is legitimate only so long as it remains in use or occupation (which Proudhon called "possession.") Proudhon's Mutualism supports labor-owned cooperative firms and associations
 - Mutualist opinions differs on whether capital goods (man-made, non-land, "means of production)" should be commonly managed public assets or private property.
 - "some mutualists have abandoned the labor theory of value, and prefer to avoid the term "socialist." But they still retain some cultural attitudes, for the most part, that set them off from the libertarian right."(from the Mutualist FAQ - are mutualists socialists? - might be worth checking out)
 - Although mutualism is similar to the economic doctrines of the 19th-century American individualist anarchists, unlike them, mutualism is in favor of large industries. Therefore, mutualism has been retrospectively characterized sometimes as being a form of individualist anarchism, and as ideologically situated between individualist and collectivist forms of anarchism as well. Proudhon himself described the "liberty" he pursued as "the synthesis of communism and property."
 - Mutualists have distinguished mutualism from state socialism, and do not advocate state control over the means of production.
 - Mutualists argue that most of the economic problems associated with capitalism each amount to a violation of the cost principle, or as Josiah Warren interchangeably said, "Cost the limit of price." It was inspired by the labor theory of value, which was popularized, though not invented, by Adam Smith in 1776 (Proudhon mentioned Smith as an inspiration). The labor theory of value holds that the actual price of a thing (or the "true cost") is the amount of labor that was undertaken to produce it. In Warren's terms, cost should be the "limit of price," with "cost" referring to the amount of labor required to produce a good or service. Anyone who sells goods should charge no more than the cost to himself of acquiring these goods.
+- generally considered a market-oriented strand within the libertarian socialist tradition
+- typically accept property rights, but with brief abandonment time periods
 *** social anarchism
 *** collectivist anarchism
 - revolutionary
@@ -266,11 +268,19 @@ http://i.imgur.com/v9jOzQ8.png
 - Collectivist anarchists often favor using a form of currency to compensate workers according to the amount of time spent contributing to society and production while Anarcho-communists believe that currency and wages should be abolished all together and goods should be distributed "to each according to his or her need"
 - saw their economic order as evolving into free communism
 - At this time (the 1880s), the anarcho-communists stressed local cells of anarchist militants, generally opposed trade unionism as were characterized by a degree of anti-organisation
-*** anarcho-communism
+*** anarchist communism / anarcho-communism
 - advocates the abolition of the state, markets, money, private property (while retaining respect for personal property), and capitalism in favor of common ownership of the means of production,[34][35] direct democracy and a horizontal network of voluntary associations and workers' councils  with production and consumption based on the guiding principle: "from each according to his ability, to each according to his need"
 - Some forms of anarchist communism such as insurrectionary anarchism are strongly influenced by egoism and radical individualism, believing anarcho-communism is the best social system for the realization of individual freedom
 - Most anarcho-communists view anarcho-communism as a way of reconciling the opposition between the individual and society
 - It is Proudhon's philosophy that was explicitly rejected by Joseph Dejacque in the inception of anarchist-communism, with the latter asserting directly to Proudhon in a letter that "it is not the product of his or her labour that the worker has a right to, but to the satisfaction of his or her needs, whatever may be their nature."
+- Some forms of anarchist communism, such as insurrectionary anarchism, are strongly influenced by egoism and radical individualism, believing anarcho-communism is the best social system for the realization of individual freedom. Some anarcho-communists view anarcho-communism as a way of reconciling the opposition between the individual and society.
+- Anarchist communists argue that there is no valid way of measuring the value of any one person's economic contributions because all wealth is a collective product of current and preceding generations.
+- Anarchist communists argue that any economic system based on wage labor and private property requires a coercive state apparatus to enforce property rights and to maintain unequal economic relationships that inevitably arise from differences in wages or amount of property
+- they further argue that markets and systems of currency divide labor into classes and assign arbitrary numerical values to an individual's work and attempt to regulate production, consumption and distribution. They argue that money restricts an individual's ability to consume the products of their labor by limiting their intake with prices and wages
+- Communist anarchism shares many traits with collectivist anarchism, but the two are distinct. Collectivist anarchism believes in collective ownership while communist anarchism negates the entire concept of ownership in favor of the concept of usage. Thus, things are seen as either private possessions used by an individual, or social possessions used to produce for society. Anarcho-communists believe that means of production should not be owned by any one person or entity, leaving it free to be used by individuals for their own self-determined needs and wants. Land and housing would no longer be subject to rent or property taxes (and therefore, its use would be free of eviction threats)
+- Anarcho-communists reject mutualist economics because they believe that market competition, even non-capitalist markets, inherently create inequalities in wealth and land which would lead to inequalities of power—thus the recreation of the State and capitalism as some workers would have more access to capital and defence force than others
+- They reject collectivist economics arguing that remuneration would require a type of currency, which, again, anarcho-communists reject as an artificial measurement of the value of labor
+- further argue that those who are not part of collective groups or unions in workers' councils and collectives could be alienated from access to capital, and thus promote free common use over ownership by society
 *** pro-organizationalist anarcho-communism
 *** anti-organizationalist / insurrectionary anarcho-communism
 https://en.wikipedia.org/wiki/Insurrectionary_anarchism
@@ -424,6 +434,10 @@ https://en.wikipedia.org/wiki/Insurrectionary_anarchism
 - especially critical of marriage
 - criticize the views of some of the traditional anarchists such as Mikhail Bakunin who have believed that patriarchy is only a minor problem and is dependent only on the existence of the state and capitalism and will disappear soon after such institutions are abolished. Anarcha-feminists by contrast view patriarchy as a fundamental problem in society and believe that the feminist struggle against sexism and patriarchy is an essential component of the anarchist struggle against the state and capitalism.
 *** platformism
+- stresses the need for tightly organized anarchist organizations, that are able to influence working class and peasant movements. It is in many ways identical to especifismo, and has an antecedent in the work of Mikhail Bakunin
+- reject the model of Leninist vanguardism. They aim, instead, to "make anarchist ideas the leading ideas within the class struggle"
+- platformist groups aim to win the widest possible influence for anarchist ideas and methods in the working class and peasantry—like especifismo groups, platformists orient towards "ordinary" people, rather than to the extreme left milieu
+- usually entailing a willingness to work in single-issue campaigns, trade unionism and community groups, and to fight for immediate reforms while linking this to a project of building popular consciousness and organisation. They therefore reject approaches that they believe will prevent this, such as insurrectionist anarchism, as well as "views that dismiss activity in the unions" or that dismiss anti-imperialist movements
 *** anarcho-queer
 - suggests anarchism as a solution to the issues faced by the LGBT community, mainly heteronormativity, homophobia, transphobia and biphobia
 *** post-left anarchism
@@ -509,6 +523,43 @@ see the wiki article... lots of "methods" to include
 - theories of value
 - economic pluralism
 - economic democracy
+*** religious anarchism
+- human rulers are illegitimate
+*** anarcha-feminism
+- views patriarchy as a manifestation of involuntary coercive hierarchy, that should be replaced by decentralized free association
+- the struggle against patriarchy is an essential part of class conflict and the anarchist struggle against the state
+- In essence, the philosophy sees anarchist struggle as a necessary component of feminist struggle and vice versa
+- anti-authoritarian, anti-capitalist, anti-oppressive philosophy, with the goal of creating an "equal ground" between males and females
+- suggests the social freedom and liberty of women, without needed dependence upon other groups or parties
+- free love (at in early forms)
+- proletarian women were exploited not only by capitalism like male workers, but also by their male counterparts
+- opposition to traditional concepts of family, education and gender roles
+*** anarcho-syndicalism
+- views revolutionary industrial unionism or syndicalism as a method for workers in capitalist society to gain control of an economy and, with that control, influence broader society
+- The basic principles of anarcho-syndicalism are solidarity, direct action  (action undertaken without the intervention of third parties such as politicians, bureaucrats, and arbitrators) and direct democracy, or workers' self-management. The end goal of anarcho-syndicalism is to abolish the wage system, regarding it as wage slavery. Anarcho-syndicalist theory therefore generally focuses on the labour movement
+- In contrast with other bodies of thought, particularly with Marxism–Leninism, anarcho-syndicalists accept the denial of a workers' state, or a state which acts in the interests of workers, as opposed to those of the powerful, and posit that any state with the intention of empowering the workers will inevitably work to empower itself or the existing elite at the expense of the workers
+- Reflecting the anarchist philosophy from which it draws its primary inspiration, anarcho-syndicalism is centred around the idea that power corrupts
+- direct action
+- With greater focus on the labour movement than previous forms of anarchism, syndicalism posits radical trade unions as a potential force for revolutionary social change, replacing capitalism and the state with a new society, democratically self-managed by the workers
+- less a type of social anarchism than a set of strategies for achieving either collectivist anarchism or communist anarchism; or first the former, then the latter, once a certain degree of technical-productive capacity has enabled production to outstrip consumption, making a moneyless economy more viable
+*** collectivist anarchism
+- revolutionary anarchist doctrine that advocates the abolition of both the state and private ownership of the means of production
+- instead envisions the means of production being owned collectively and controlled and managed by the producers themselves
+- salaries set democratically, then used to purchase goods in a communal market - in constrast with anarcho-communism where wages would be abolished, and where individuals would take freely from a storehouse of goods "to each according to his need." (so, despite title, more of a blen od individualism and collectivism)
+- The difference between collectivist anarchism and anarchist communism is that under the former, a wage system is retained based on the amount of labor performed. Anarchist communism, like collectivist anarchism, also advocates for the socialization of production, but the distribution of goods as well. Instead of 'to each according to his labor', in anarcho-communism the community would supply the subsistence requirements to each member free of charge according to the maxim 'to each according to his needs'
+- a specific tendency, not to be confused with the broad category sometimes called collectivist or communitarian anarchism
+- Unlike mutualists, collectivist anarchists oppose all private ownership of the means of production, instead advocating that ownership be collectivized. This was to be achieved through violent revolution, first starting with a small cohesive group through acts of violence, or "propaganda by the deed," which would inspire the workers as a whole to revolt and forcibly collectivize the means of production. However, collectivization was not to be extended to the distribution of income, as workers would be paid according to time worked, rather than receiving goods being distributed "according to need" as in anarcho-communism. This position was criticised by later anarcho-communists as effectively "uphold[ing] the wages system"
+- Collectivist anarchism arose contemporaneously with Marxism but opposed the Marxist dictatorship of the proletariat, despite the stated Marxist goal of a collectivist stateless society.
+*** social anarchism
+- non-state form of socialism
+- sees individual freedom as being dependent upon mutual aid
+- emphasizes community and social equality as complementary to autonomy and personal freedom
+- advocate the conversion of present-day private property  into social property or the commons, while retaining respect for personal property
+- term is used to describe those who—contra anarchist individualism—place an emphasis on the communitarian and cooperative aspects of anarchist theory; while also opposing authoritarian forms of communitarianism associated with groupthink and collective conformity, instead favouring a reconciliation between individuality and sociality
+- considered an umbrella term which includes (but is not limited to) the post-capitalist economic models of anarchist communism, collectivist anarchism, and (sometimes) mutualism; as well as the trade union strategy of anarcho-syndicalism, the social struggle strategies of platformism and specifism, and the environmental philosophy of social ecology
+- "social anarchism" is often used interchangeably with libertarian socialism, left-libertarianism, or left anarchism. It emerged in the late 19th century as a distinction from individualist anarchism
+- More recent developments within social anarchism are the post-capitalist economic models of inclusive democracy, and participatory economics, both of which could be regarded as updated forms of the collectivist anarchism of Mikhail Bakunin, as well as the environmental philosophy of social ecology, and its associated politics of Post-Scarcity Anarchism and Communalism
+- tactical unity, theoretical unity, collective responsibility, federalism
 ** liberalism
 *** libertarianism
 **** geolibertarianism
@@ -516,6 +567,10 @@ see the wiki article... lots of "methods" to include
 ** communism
 *** communist egoism
 - The perspective of communist egoism is the perspective of that selfishness which desires nothing so much as other selves, of that egoism which wants nothing so much as other egos; of that greed which is greedy to love—love being the 'total appropriation' of man by man
+** socialism
+*** libertarian socialism
+- 
+*** participatory economics
 ** various "techno-" and "transhuman" things
 where to find a list / enumeration of these things?
 https://en.wikipedia.org/wiki/Transhumanism ?
@@ -537,6 +592,7 @@ https://en.wikipedia.org/wiki/Talk:Alt-right
 - not sure they have any new ideas
 - call them what they are - white nationalists, male chauvinists
 - probably some connection to nietzsche / "great men"
+** feminism
 ** relevant ideas
 whatever other things you come across
 might make sense to express other ideologies as collections of these
@@ -558,10 +614,8 @@ might make sense to express other ideologies as collections of these
 *** anti-individualism
 - what seems to be internal to the individual is to some degree dependent on the social environment. Thus, self-knowledge, intentions, reasoning and moral value may variously be seen as being determined by factors outside the person
 - argue for a limited agreement with the Cartesian model of self-cognition as being Authoritative, but also pointed out that knowledge of self-cognition was not always absolute, allowing for the individuation of thought to originate from both the external content of our environment, as well as from the internal landscape of our self-knowledge as it is still being discovered: "One can know what one's mental events are and yet not know relevant general facts about the conditions for individuating those events. It is simply not true that the cogito gives us knowledge of the individuation conditions of our thoughts which enables us to "shut off" their individuation conditions from the physical environment"
-*** collectivism
-*** individualism
-*** critiques of collectivisim
-*** critiques of individualis
+*** collectivism + critiques
+*** individualism + critiques
 *** ethical egoism
 *** Anarchism and Friedrich Nietzsche
 https://en.wikipedia.org/wiki/Anarchism_and_Friedrich_Nietzsche
@@ -585,3 +639,5 @@ https://en.wikipedia.org/wiki/Anarchism_and_Friedrich_Nietzsche
 - multiculturalist tolerance and celebration of different identities; solicitude for how your own behavior affects others; concern for the social impact of language, etc. But the history of the term “politically correct” tells a much different story.
 *** positive and negative rights
 *** moral relativism and anti-relativism
+*** intersectionality
+all types of oppression are linked and must be eradicated
