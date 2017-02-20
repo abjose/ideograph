@@ -21,6 +21,7 @@ A collection of (possibly) networks of self-consistent beliefs/assertions from d
 - cool if can easily display difference between ideologies in site - just like you can view the 'root disagreements' (or root agreements) between two people/poses, you can enter two existing ideologies and view their differences
 - secretly a propaganda tool! because thinking rationally about political position might make you realize you're not a "liberal" or "conservative"
 - maybe *could* do some kind of netflix-y machine learning / recommendation engine thing. Have the rows of your matrix be particular assertions / views, and the columns be ideology names... Might be interesting to play with. Though wouldn't take advantage of logical dependencies in any way, but maybe that's ok... Probably shouldn't go by ideology names though, want to basically "discover" those through this process. Maybe should put actual individuals.
+- maybe just start with a git repo with a dot graph file and a "descriptions" file (which has further information on IDs in the dot file, in markdown or something), then generate the graph from that. When you click on things, can add to your "idelogical profile" and also see more info on it, see what it contradicts (which will also be colored in / grayed out on the graph), ...
 * things to integrate
 - quote from hn: I honestly feel that if considered luck to be a larger factor and effort to be a lesser factor, his political stances would change pretty dramatically. (same applies to me in reverse). I wonder how much the social willingness to accept luck as a factor impacts popular political positions. (Perhaps not much, as the author in the article promotes a consumption tax, which is generally seen as more regressive)
 - quote from hn: My version: Republican party platform does not believe in the "veil of ignorance" at all whatsoever. They support neo-feudalism and aristocracy. Equality is fake, people are in fact different, those differences should be rewarded and punished in a free market, it is considered unfair to force equality to be true. Even equality under the law is negotiable, where those who can afford better lawyers get better justice. Democrats are tone deaf, and suck at marketing their own policy successes. They'd rather convince people to vote for them on the basis of a smug liberalism which says if only people had the facts they'd vote Democrat. Ergo if you vote Republican you're either stupid or evil. This is not a winning strategy, obviously.
@@ -560,6 +561,128 @@ see the wiki article... lots of "methods" to include
 - "social anarchism" is often used interchangeably with libertarian socialism, left-libertarianism, or left anarchism. It emerged in the late 19th century as a distinction from individualist anarchism
 - More recent developments within social anarchism are the post-capitalist economic models of inclusive democracy, and participatory economics, both of which could be regarded as updated forms of the collectivist anarchism of Mikhail Bakunin, as well as the environmental philosophy of social ecology, and its associated politics of Post-Scarcity Anarchism and Communalism
 - tactical unity, theoretical unity, collective responsibility, federalism
+** conservatism
+*** conservatism
+from http://www.kirkcenter.org/index.php/detail/ten-conservative-principles/:
+- "enduring moral order" - That order is made for man, and man is made for it: human nature is a constant, and moral truths are permanent. Meaning... there is a way things are supposed to be?
+- adheres tocustom, convention, and continuity
+- importance of "prescription" - things established by immemorial usage. Conservatives argue that we are unlikely, we moderns, to make any brave new discoveries in morals or politics or taste. In politics we do well to abide by precedent and precept and even prejudice, for the great mysterious incorporation of the human race has acquired a prescriptive wisdom far greater than any man’s petty private rationality.
+- importance of "prudence" - Any public measure ought to be judged by its probable long-run consequences, not merely by temporary advantage or popularity. Liberals and radicals, the conservative says, are imprudent: for they dash at their objectives without giving much heed to the risk of new abuses worse than the evils they hope to sweep away.
+- importance of "variety" - They feel affection for the proliferating intricacy of long-established social institutions and modes of life, as distinguished from the narrowing uniformity and deadening egalitarianism of radical systems. For the preservation of a healthy diversity in any civilization, there must survive orders and classes, differences in material condition, and many sorts of inequality. The only true forms of equality are equality at the Last Judgment and equality before a just court of law; all other attempts at levelling must lead, at best, to social stagnation. Society requires honest and able leadership; and if natural and institutional differences are destroyed, presently some tyrant or host of squalid oligarchs will create new forms of inequality.
+- importance of "imperfectability" - Human nature suffers irremediably from certain grave faults, the conservatives know. Man being imperfect, no perfect social order ever can be created. (Humans are imperfect and not perfectible).
+- "freedom and property are closely linked"
+- voluntary community over "involuntary collectivism" - something about prefering decisions to be made locally... not sure what it has to do with collectivism
+- "prudent restraints on power and human passions"
+- "permancene and change must be recognized and reconciled in a vigorous society"
+from wikipedia:
+- promotes retaining traditional social institutions in the context of culture and civilization
+- seek to preserve institutions like the Church, monarchy and the social hierarchy as they are, emphasizing stability and continuity, while the more extreme elements called reactionaries oppose Modernism and seek a return to "the way things were"
+- There is no single set of policies that are universally regarded as conservative, because the meaning of conservatism depends on what is considered traditional in a given place and time. Thus conservatives from different parts of the world—each upholding their respective traditions—may disagree on a wide range of issues.
+- political theorists such as Corey Robin define conservatism primarily in terms of a general defense of social and economic inequality. From this perspective conservatism is less an attempt to uphold traditional institutions and more "a meditation on—and theoretical rendition of—the felt experience of having power, seeing it threatened, and trying to win it back."
+- Both conservative and liberal parties tend to favor private ownership of property, in opposition to communist, socialist and green parties, which favor communal ownership or laws requiring social responsibility on the part of property owners. Where conservatives and liberals differ is primarily on social issues. Conservatives tend to reject behavior that does not conform to some social norm. Modern conservative parties often define themselves by their opposition to liberal or labor parties. The United States usage of the term conservative is unique to that country
+*** american conservatism
+- broad system of political beliefs in the United States that is characterized by respect for American traditions, support for Judeo-Christian values, economic liberalism, anti-communism, advocacy of American exceptionalism, and a defense of Western culture from perceived threats posed by "creeping socialism", moral relativism, multiculturalism, and liberal internationalism
+-  Liberty is a core value, with a particular emphasis on strengthening the free market, limiting the size and scope of government, and opposition to high taxes and government or labor union encroachment on the entrepreneur
+- consider individual liberty, within the bounds of conformity to American values, as the fundamental trait of democracy, which contrasts with modern American liberals, who generally place a greater value on equality and social justice
+*** liberal conservatism
+- often referred to the combination of economic liberalism, which champions laissez-faire markets, with the classical conservatism concern for established tradition, respect for authority and religious values. It contrasted itself with classical liberalism, which supported freedom for the individual in both the economic and social spheres
+- Over time, the general conservative ideology in many countries adopted economic liberal arguments, and the term liberal conservatism was replaced with conservatism. This is also the case in countries where liberal economic ideas have been the tradition, such as the United States, and are thus considered conservative.
+- liberal conservative tradition in the United States combines the economic individualism of the classical liberals with a Burkean form of conservatism 
+- A secondary meaning for the term liberal conservatism that has developed in Europe is a combination of more modern conservative (less traditionalist) views with those of social liberalism. This has developed as an opposition to the more collectivist views of socialism. Often this involves stressing what are now conservative views of free-market economics and belief in individual responsibility, with social liberal views on defence of civil rights, environmentalism and support for a limited welfare state.
+*** conservative liberalism
+- a variant of liberalism that combines liberal values and policies with conservative stances, or, more simply, the right wing of the liberal movement
+*** libertarian conservatism
+- describes certain political ideologies within the United States and Canada which combine libertarian economic issues with aspects of conservatism. Its four main branches are Constitutionalism, paleolibertarianism, small government conservatism and Christian libertarianism. They generally differ from paleoconservatives, in that they are in favor of more personal and economic freedom.
+- sometimes called right-libertarianism
+- In contrast to paleoconservatives, libertarian conservatives support strict laissez-faire policies such as free trade, opposition to any national bank and opposition to business regulations. They are vehemently opposed to environmental regulations, corporate welfare, subsidies, and other areas of economic intervention
+*** fiscal conservatism
+- Fiscal conservatism is the economic philosophy of prudence in government spending and debt... government does not have the right to run up large debts and then throw the burden on the taxpayer
+- Most conservatives, especially in the United States, believe that government action should focus on moral and social questions and oppose government action to help the poor, to regulate the economy, or to protect the environment. They believe that government programs that seek to provide services and opportunities for the poor actually encourage dependence and reduce self-reliance. They oppose affirmative action. They oppose a progressive income tax.
+- Many conservatives, especially in the United States, believe that the government should not play a major role in regulating business and managing the economy. They typically oppose efforts to charge high tax rates and to redistribute income to assist the poor. Such efforts, they argue, do not properly reward people who have earned their money through hard work
+- (make sure to also include assumptions here - that wealth is a direct result of hard work, etc.)
+*** national conservatism
+- a political term used primarily in Europe to describe a variant of conservatism which concentrates more on national interests than standard conservatism as well as upholding cultural and ethnic identity, while not being outspokenly nationalist or supporting a far-right approach
+- heavily oriented towards the traditional family and social stability as well as in favour of limiting immigration. As such, national conservatives can be distinguished from economic conservatives, for whom free market economic policies, deregulation and fiscal conservatism are the main priorities.
+- 
+*** traditionalist conservatism / toryism
+- political philosophy emphasizing the need for the principles of natural law and transcendent moral order, tradition, hierarchy and organic unity, agrarianism, classicism and high culture, and the intersecting spheres of loyalty
+- Some traditionalists have embraced the labels "reactionary" and "counterrevolutionary", defying the stigma that has attached to these terms since the Enlightenment.
+- Having a hierarchical view of society, many traditionalist conservatives, including a few Americans, defend the monarchical political structure as the most natural and beneficial social arrangement.
+(From toryism)
+- supported a hierarchical society with a monarch who ruled by divine right
+- opposed the idea that sovereignty derived from the people, and rejected the authority of parliament and freedom of religion
+- evolved in the early 19th century - Conservatism no longer was the philosophical defense of the landed aristocracy but had been refreshed into redefining its commitment to the ideals of order, both secular and religious, expanding imperialism, strengthened monarchy, and a more generous vision of the welfare state as opposed to the punitive vision of the Whigs and Liberals
+- Belief in natural law and transcendent moral order lay the foundation for traditionalist conservative thought. Reason and Divine Revelation inform natural law and the universal truths of faith. It is through these universal truths of faith that man orders himself and the world around him. Mankind organized society on the basis of these universal truths of faith. The traditionalist holds axiomatic the belief that religion precedes civilization
+- believe that tradition and custom guide man and his worldview. Each generation inherits the experience and culture of its ancestors and through convention and precedence man is able to pass it down to his descendants
+- believe that human society is essentially hierarchical (i.e., it always involves various interdependent inequalities, degrees, and classes and that political structures that recognize this fact prove the most just, thriving, and generally beneficial). Hierarchy allows for the preservation of the whole community simultaneously, instead of protecting one part at the expense of the others
+- While most traditionalist conservatives are cosmopolitan[citation needed] and many live in urban centers, the countryside and the values of rural life are prized highly (sometimes even being romanticized, as in pastoral poetry). The principles of agrarianism (i.e., preserving the small family farm, open land, the conservation of natural resource, and stewardship of the land) are central to a traditionalist's understanding of rural life
+- defend classical Western civilization, and value an education informed by the texts of the Hebraic, Greek, Roman, and Medieval eras. Similarly, traditionalists are classicists who revere high culture in all of its manifestations (e.g., literature, music, architecture, art, theater)
+- Unlike nationalists, who esteem the role of the State or nation over the local or regional community, traditionalists hold up patriotism as a key principle. Traditionalist conservatives think that loyalty to a locality or region is more central than any commitment to a larger political entity. Traditionalists also welcome the value of subsidiarity and the intimacy of one's community, preferring the Civil Society of Burke's "little platoons" over the expanded State. Nationalism, alternately, leads to jingoism and views the state as abstract from the local community and family structure rather than as an outgrowth of these local realities
+*** cultural conservatism
+- support the preservation of the heritage of one nation, or of a shared culture that is not defined by national boundaries.
+- hold fast to traditional ways of thinking even in the face of monumental change. They believe strongly in traditional values and traditional politics, and often have an urgent sense of nationalism.
+*** social conservatism
+- group of political ideologies centred on preserving traditional beliefs, attitudes and philosophy. The aims of social conservatism vary from organisation to organisation, and from country to country. Thus, there are really no policies or positions that could be considered universal among social conservatives.
+- may believe that the government has a role in encouraging or enforcing traditional values or behaviours
+- wants to preserve traditional morality and social mores, often by opposing what they consider radical policies or social engineering. 
+- Social change is generally regarded as suspect
+- A second meaning of the term social conservatism developed in the Nordic countries and continental Europe. There it refers to liberal conservatives supporting modern European welfare states.
+- Social conservatives (in the first meaning of the word) in many countries generally favour the pro-life position in the abortion controversy and oppose human embryonic stem cell research (particularly if publicly funded); oppose both eugenics and human enhancement (transhumanism) while supporting bioconservatism; support a traditional definition of marriage as being one man and one woman; view the nuclear family model as society's foundational unit; oppose expansion of civil marriage and child adoption rights to couples in same-sex relationships; promote public morality and traditional family values; oppose atheism, especially militant atheism, secularism and the separation of church and state; support the prohibition of drugs, prostitution, and euthanasia; and support the censorship of pornography and what they consider to be obscenity or indecency. Most conservatives in the US support the death penalty.
+list of specific parties: https://en.wikipedia.org/wiki/Social_conservatism
+*** religions conservatism
+- seek to apply the teachings of particular religions to politics, sometimes by merely proclaiming the value of those teachings, at other times by having those teachings influence laws
+- typically oppose abortion, homosexual behavior, drug use, and sexual activity outside of marriage
+*** progressive conservatism
+- incorporates progressive policies alongside conservative policies
+- stresses the importance of a social safety net to deal with poverty, support of limited redistribution of wealth along with government regulation to regulate markets in the interests of both consumers and producers
+- basically center-right
+*** authoritarian conservatism
+- refers to autocratic regimes that center their ideology around conservative nationalism rather than ethnic nationalism, though certain racial components such as antisemitism may exist
+- show strong devotion towards religion, tradition, and culture, while also expressing fervent nationalism akin to other far-right nationalist movements
+- Authoritarian conservative movements were prominent in the same era as fascism, with which it sometimes clashed. Although both ideologies shared core values such as nationalism and had common enemies such as communism and materialism, there was nonetheless a contrast between the traditionalist nature of authoritarian conservatism and the revolutionary, palingenetic, and populist nature of fascism; thus, it was common for authoritarian conservative regimes to suppress rising fascist and National Socialist movements. The hostility between the two ideologies is highlighted by the struggle for power for the National Socialists in Austria, which was marked by the assassination of Dollfuss.
+*** specific instances of conservatism
+https://en.wikipedia.org/wiki/Conservatism#Historic_conservatism_in_different_countries
+https://en.wikipedia.org/wiki/Conservatism#Modern_conservatism_in_different_countries
+https://en.wikipedia.org/wiki/Conservatism#Characteristics_of_conservatism_in_France.2C_Italy.2C_Russia.2C_Poland.2C_UK.2C_US_and_Israel
+Interesting to split these out into different things and tag them with the specific movement they're from
+*** reactionary
+- a person who holds political views that favor a return to the status quo ante, the previous political state of society, which they believe possessed characteristics (discipline, respect for authority, etc.) that are negatively absent from the contemporary status quo of a society. As an adjective, the word reactionary describes points of view and policies meant to restore the status quo ante
+- Political reactionaries are at the right-wing of a political spectrum; yet, reactionary ideologies can be radical, in the sense of political extremism, in service to re-establishing the status quo ante
+*** neoreactionary
+- objectives included opposition to any form of egalitarianism as well as "a return to traditional gender roles, monarchism, and typically a more libertarian-oriented economic system"
+*** paleoconservatism
+- stressing tradition, limited government and civil society, along with religious, regional, national and Western identity.
+- paleoconservatives press for restrictions on immigration, a rollback of multicultural programmes, the decentralization of the federal policy, the restoration of controls upon free trade, a greater emphasis upon economic nationalism and isolationism in the conduct of American foreign policy, and a generally revanchist outlook upon a social order in need of recovering old lines of distinction and in particular the assignment of roles in accordance with traditional categories of gender, ethnicity, and race
+- claim to represent a more historic, authentic conservative tradition than that found in neoconservatism.
+- Just as paleoconservatives' non-interventionism stems from their skepticism as to what extent—if at all—European culture can be transplanted or forced upon non-Western cultures, paleoconservatives' opposition to immigration is rooted in their skepticism of the ability of non-Western peoples to adopt European culture. As a result, paleocons are most distinctive in their emphatic opposition to open immigration by non-Europeans, and their general disapproval of U.S. intervention overseas. Sam Francis wrote:
+We believe that the United States derives from and is an integral part of European civilization and the European people and that the American people and government should remain European in their composition and character. We therefore oppose the massive immigration of non-European and non-Western peoples into the United States that threatens to transform our nation into a non-European majority in our lifetime. We believe that illegal immigration must be stopped, if necessary by military force and placing troops on our national borders; that illegal aliens must be returned to their own countries; and that legal immigration must be severely restricted or halted through appropriate changes in our laws and policies.
+- They are also strongly critical of neoconservatives and their sympathizers in print media, talk radio and cable TV news. Paleocons often say they are not conservatives in the sense that they necessarily wish to preserve existing institutions or seek merely to slow the growth of modern big-government conservatism. They do not wish to be closely identified with the U.S. Republican Party. Rather, they seek the renewal of "small 'r'" republican society in the context of the Western heritage, customs and civilization. Joseph Scotchie wrote:
+Republics mind their own business. Their governments have very limited powers, and their people are too busy practicing self-government to worry about problems in other countries. Empires not only bully smaller, defenseless nations, they also can't leave their own, hapless subjects alone.... Empires and small government aren't compatible, either.
+- paleocons see neoconservatives as empire-builders and themselves as defenders of the republic
+- On some issues, many paleocons are hard to distinguish from others on the conservative spectrum. For example, they tend to oppose abortion on demand and gay marriage, while supporting capital punishment, handgun ownership and an original intent reading of the U.S. Constitution. On the other hand, paleocons are often more sympathetic to environmental protection, animal welfare, and anti-consumerism than others on the US Right
+- Paleoconservatives argue that since human nature is limited and finite, any attempt to create a man-made utopia is headed for disaster and potential carnage. Instead, they lean toward tradition, family, customs, religious institutions and classical learning to provide wisdom and guidance
+- Among the most dangerous of our theoretical illusions are the political fantasies that can be summed up in words like democracy; equality, and natural rights; the principle of one man, one vote and the American tradition of self-government. No one who lives in the world with his eyes open can actually believe in any of this.
+- Many paleocons also say that Westerners have lost touch with their classical and European heritage, to the point that they are in danger of losing their civilization. Robert S. Griffin notes that paleocons fear the United States becoming a "secularized, homogenized, de-Europeanized, pacified, deluded, manipulated, lowest-common-denominator-leveled, popular-culture-dopified country"
+- Anti-Federalism is another key aspect of paleoconservatism, which adherents see as an antitype to the managerial state. The paleocon flavor urges honoring the principle of subsidiarity, that is, decentralized government, local rule, private property and minimal bureaucracy.
+- anti-individualism? a recognition that man is a social and political animal who cannot be treated as an "individual" without doing damage to human nature. In this sense libertarian theory is as wrong and as potentially harmful as communism. The commonwealth is therefore a natural and necessary expression of human nature that provides for the fulfillment of human needs
+- The family is the natural and fundamental social unit, inscribed in our nature as human beings, rooted in marriage, rooted in the commitment to bring new life into the world, and rooted in a deep respect for both ancestors and posterity, where family is "a man and a woman living in a socially sanctioned bond called marriage for the purposes of propagating and rearing children, sharing intimacy and resources, and conserving lineage, property, and tradition."
+- heterosexual marriage is hard-coded into human nature
+- question the validity of gender feminism in similar ways, some questioning feminism in both its radical and moderate forms. They say that the push for total gender equality dehumanizes both men and women, damaging the nuclear family and sacralizing abortion.
+- men and women "are different in reproductive, economic, and social functions", even though they share political and property rights.
+- "the laws and decrees enacted by human government are mutable and sometimes tyrannical", yet "the laws of human nature, worked tight within the spirals of the genetic code, are unchanging and just."
+*** neoconservatism
+- political movement born in the United States during the 1960s among conservative-leaning Democrats who became disenchanted with the party's foreign policy
+- The term "neoconservative" refers to those who made the ideological journey from the anti-Stalinist Left to the camp of American conservatism
+- Neoconservatives typically advocate the promotion of democracy and American national interest in international affairs, including by means of military force and are known for espousing disdain for communism and for political radicalism
+- In foreign policy, the neoconservatives' main concern is to prevent the development of a new rival
+- communism was a monstrous evil and a potent danger
+- first developed during the late 1960s as an effort to oppose the radical cultural changes occurring within the United States. Irving Kristol wrote: "If there is any one thing that neoconservatives are unanimous about, it is their dislike of the counterculture."
+- stress on foreign affairs "emerged after the New Left and the counterculture had dissolved as convincing foils for neoconservatism .... The essential source of their anxiety is not military or geopolitical or to be found overseas at all; it is domestic and cultural and ideological."
+- Neoconservative foreign policy is a descendant of so-called Wilsonian idealism. Neoconservatives endorse democracy promotion by the U.S. and other democracies, based on the claim that they think that human rights belong to everyone. They criticized the United Nations and detente with the USSR. On domestic policy, they endorse a welfare state, like European and Canadian conservatives and unlike American conservatives.
+- While neoconservatism is concerned primarily with foreign policy, there is also some discussion of internal economic policies. Neoconservatism generally endorses free markets and capitalism, favoring supply-side economics, but it has several disagreements with classical liberalism and fiscal conservatism: Irving Kristol states that neocons are more relaxed about budget deficits and tend to reject the Hayekian notion that the growth of government influence on society and public welfare is "the road to serfdom." Indeed, to safeguard democracy, government intervention and budget deficits may sometimes be necessary, Kristol argues
+- Further, neoconservative ideology stresses that while free markets do provide material goods in an efficient way, they lack the moral guidance human beings need to fulfill their needs. Morality can be found only in tradition, they say and, contrary to libertarianism, markets do pose questions that cannot be solved solely by economics. "So, as the economy only makes up part of our lives, it must not be allowed to take over and entirely dictate to our society."
+** right-wing politics
+** left-wing politics
 ** liberalism
 *** libertarianism
 **** geolibertarianism
@@ -593,6 +716,8 @@ https://en.wikipedia.org/wiki/Talk:Alt-right
 - call them what they are - white nationalists, male chauvinists
 - probably some connection to nietzsche / "great men"
 ** feminism
+*** gender feminism
+*** equity feminism
 ** relevant ideas
 whatever other things you come across
 might make sense to express other ideologies as collections of these
@@ -641,3 +766,16 @@ https://en.wikipedia.org/wiki/Anarchism_and_Friedrich_Nietzsche
 *** moral relativism and anti-relativism
 *** intersectionality
 all types of oppression are linked and must be eradicated
+*** patriotism
+(differences with nationalism)
+*** social dominance orientation
+https://en.wikipedia.org/wiki/Social_dominance_orientation
+"While age- and gender-based hierarchies will tend to exist within all social systems, arbitrary-set systems of social hierarchy will invariably emerge within social systems producing sustainable economic surpluses.
+Most forms of group conflict and oppression (e.g., racism, homophobia, ethnocentrisim, sexism, classism, regionalism) can be regarded as different manifestations of the same basic human predisposition to form group-based hierarchies.
+Human social systems are subject to the counterbalancing influences of hierarchy-enhancing (HE) forces, producing and maintaining ever higher levels of group-based social inequality, and hierarchy-attenuating (HA) forces, producing greater levels of group-based social equality."
+
+Really good items!
+https://en.wikipedia.org/wiki/Social_dominance_orientation#Scale
+*** jingoism
+*** civil society
+*** historicism
