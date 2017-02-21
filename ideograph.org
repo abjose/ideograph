@@ -12,6 +12,7 @@ A collection of (possibly) networks of self-consistent beliefs/assertions from d
 - Also just think you should have "critiques" of things as their own nodes with some kind of conflicting edge to the thing they critique.
 * desirements
 - want it to help you find inconsistencies in your own beliefs
+- want to be able to automatically find the fundamental disagreements between two ideological poses
 - list of ideologies that you can scroll through to see them get highlighted in the graph, then see them blank out as you "rule them out" while choosing assertions
 - come up with a funny (but accurate) name for the current selection of assertions
 - button to generate new consistent ideology and come up with a silly name
@@ -27,6 +28,7 @@ A collection of (possibly) networks of self-consistent beliefs/assertions from d
 - quote from hn: My version: Republican party platform does not believe in the "veil of ignorance" at all whatsoever. They support neo-feudalism and aristocracy. Equality is fake, people are in fact different, those differences should be rewarded and punished in a free market, it is considered unfair to force equality to be true. Even equality under the law is negotiable, where those who can afford better lawyers get better justice. Democrats are tone deaf, and suck at marketing their own policy successes. They'd rather convince people to vote for them on the basis of a smug liberalism which says if only people had the facts they'd vote Democrat. Ergo if you vote Republican you're either stupid or evil. This is not a winning strategy, obviously.
 - quote from hn: Drilling in to find what we really disagree about, it seems to boil down to two concepts: (1) I view success as a matter of luck that your effort can make better or worse. He views effort as the single most important deciding factor in success in life (2) I'm willing to tolerate an amount of "unfairness" in people getting help they "don't deserve", while he finds this very offensive.
 - http://townhall.com/columnists/dennisprager/2017/01/17/a-guide-to-basic-differences-between-left-and-right-n2271475
+- https://en.wikipedia.org/wiki/Social_philosophy
 * links
 http://www.philosophyideas.com/
 https://www.truthmapping.com/
@@ -585,26 +587,49 @@ from wikipedia:
 -  Liberty is a core value, with a particular emphasis on strengthening the free market, limiting the size and scope of government, and opposition to high taxes and government or labor union encroachment on the entrepreneur
 - consider individual liberty, within the bounds of conformity to American values, as the fundamental trait of democracy, which contrasts with modern American liberals, who generally place a greater value on equality and social justice
 *** liberal conservatism
+- a political ideology combining conservative policies with liberal stances, especially on economic and social issues, or a brand of political conservatism strongly influenced by liberalism. It is a political position which incorporates support for civil liberties and capitalism, along with some social-conservative positions
+- usually contrasts with aristocratic conservatism, which rejects the principle of equality as something in discordance with human nature, and emphasizes instead the idea of natural inequality
 - often referred to the combination of economic liberalism, which champions laissez-faire markets, with the classical conservatism concern for established tradition, respect for authority and religious values. It contrasted itself with classical liberalism, which supported freedom for the individual in both the economic and social spheres
 - Over time, the general conservative ideology in many countries adopted economic liberal arguments, and the term liberal conservatism was replaced with conservatism. This is also the case in countries where liberal economic ideas have been the tradition, such as the United States, and are thus considered conservative.
 - liberal conservative tradition in the United States combines the economic individualism of the classical liberals with a Burkean form of conservatism 
 - A secondary meaning for the term liberal conservatism that has developed in Europe is a combination of more modern conservative (less traditionalist) views with those of social liberalism. This has developed as an opposition to the more collectivist views of socialism. Often this involves stressing what are now conservative views of free-market economics and belief in individual responsibility, with social liberal views on defence of civil rights, environmentalism and support for a limited welfare state.
+- As conservatives in democratic countries have embraced typical liberal institutions such as the rule of law, private property, the market economy, and constitutional representative government, the liberal element of liberal conservatism became consensual among conservatives
+- In some countries (e.g. the United Kingdom and the United States) the term "liberal conservatism" came to be understood simply as "conservatism" in popular culture, prompting some conservatives who embraced more strongly classical liberal values to call themselves "libertarians".
+- the liberal-conservative tradition in the United States often combines the economic individualism of classical liberals with a Burkean form of conservatism that emphasizes the natural inequalities between men, the irrationality of human behavior as the basis for the human drive for order and stability, and the rejection of natural rights as the basis for government. However, from a different perspective, American conservatism, a "hybrid of conservatism and classical liberalism", has exalted three tenets of Burkean conservatism, namely the diffidence toward the power of the state, the preference of liberty over equality and patriotism, while rejecting the three remaining tenets, namely loyalty to traditional institutions and hierarchies, scepticism regarding progress and elitism. Consequently, in the United States the term "liberal conservatism" is not used and American modern liberalism happens to be quite different from the European brand. The opposite is true in Latin America, where economically liberal conservatism is often labelled under the rubric of neoliberalism both in popular culture and academic discourse.
+- European liberal conservatives, in their embracement of liberal and free-market principles, are clearly distinguishable from those conservatives who have embraced national-conservative views, more socially conservative stances and/or outright populism, let alone a right-wing populist posture
+- Compared to traditional centre-right politics, such as those proposed by Christian democrats, liberal conservatism is less traditionalist and more right-libertarian economically, favouring low taxes and minimal state intervention in the economy
+- This position is also associated with support for moderate forms of social safety net and environmentalism
 *** conservative liberalism
 - a variant of liberalism that combines liberal values and policies with conservative stances, or, more simply, the right wing of the liberal movement
+- a more positive and less radical variant of classical liberalism.
+- Conservative liberal parties tend to combine market liberal policies with more traditional stances on social and ethical issues.
+- Instead of following progressive liberalism, conservative liberals draw upon pre-modern sources, such as classical philosophy (with its ideas of virtue, the common good, and natural rights), Christianity (with its ideas of natural law, the social nature of man, and original sin), and ancient institutions (such as common law, corporate bodies, and social hierarchies). This gives their liberalism a conservative foundation.
 *** libertarian conservatism
 - describes certain political ideologies within the United States and Canada which combine libertarian economic issues with aspects of conservatism. Its four main branches are Constitutionalism, paleolibertarianism, small government conservatism and Christian libertarianism. They generally differ from paleoconservatives, in that they are in favor of more personal and economic freedom.
 - sometimes called right-libertarianism
+- combines right-libertarian politics and conservative values
 - In contrast to paleoconservatives, libertarian conservatives support strict laissez-faire policies such as free trade, opposition to any national bank and opposition to business regulations. They are vehemently opposed to environmental regulations, corporate welfare, subsidies, and other areas of economic intervention
+- Libertarian conservatives' first value is negative liberty to achieve socially and culturally conservative ends. They reject liberal social engineering.
+- combine the advocacy of economic principles, such as fiscal discipline, respect for contracts, defense of private property and free markets and the classical conservative stress on self-help and freedom of choice under a laissez-faire and economically liberal capitalist society with social tenets such as the importance of religion, and the value of traditional morality through a framework of limited, constitutional, representative government
+- continued libertarian opposition to "all forms of government intervention – economic, cultural, social, international" but also upholding cultural conservatism in social thought and behavior. They opposed a licentious libertarianism which advocated "freedom from bourgeois morality, and social authority."
 *** fiscal conservatism
 - Fiscal conservatism is the economic philosophy of prudence in government spending and debt... government does not have the right to run up large debts and then throw the burden on the taxpayer
+- a political-economic philosophy regarding fiscal policy and fiscal responsibility advocating low taxes, reduced government spending and minimal government debt
+- Free trade, deregulation of the economy, lower taxes, and privatization are defining qualities of fiscal conservatism
+- Fiscal conservatism follows the same philosophical outlook of classical liberalism and economic liberalism regarding fiscal matters
+- Fiscal conservatives advocate the avoidance of deficit spending, the reduction of overall government spending and national debt, and ensuring balanced budgets. In other words, fiscal conservatives are against the government expanding beyond its means through debt.
 - Most conservatives, especially in the United States, believe that government action should focus on moral and social questions and oppose government action to help the poor, to regulate the economy, or to protect the environment. They believe that government programs that seek to provide services and opportunities for the poor actually encourage dependence and reduce self-reliance. They oppose affirmative action. They oppose a progressive income tax.
 - Many conservatives, especially in the United States, believe that the government should not play a major role in regulating business and managing the economy. They typically oppose efforts to charge high tax rates and to redistribute income to assist the poor. Such efforts, they argue, do not properly reward people who have earned their money through hard work
 - (make sure to also include assumptions here - that wealth is a direct result of hard work, etc.)
 *** national conservatism
 - a political term used primarily in Europe to describe a variant of conservatism which concentrates more on national interests than standard conservatism as well as upholding cultural and ethnic identity, while not being outspokenly nationalist or supporting a far-right approach
 - heavily oriented towards the traditional family and social stability as well as in favour of limiting immigration. As such, national conservatives can be distinguished from economic conservatives, for whom free market economic policies, deregulation and fiscal conservatism are the main priorities.
-- 
+- concentrates more on national interests and upholding cultural and ethnic identity than most other conservatives
+- are "socially traditional" and support the traditional family and social stability
+- Many national conservatives are thus social conservatives, as well as in favour of limiting immigration and enacting law-and-order policies
+- National conservative parties in different countries do not necessarily share a common position on economic policy: their views may range from support of a planned economy to a centrist mixed economy to a laissez-faire approach.[1] In the first, more common, case, national conservatives can be distinguished from fiscal conservatives,[6] for whom free market economic policies, deregulation and tight spending are the main priorities
 *** traditionalist conservatism / toryism
+- set of principles based on concern for established tradition, respect for authority, and religious values
 - political philosophy emphasizing the need for the principles of natural law and transcendent moral order, tradition, hierarchy and organic unity, agrarianism, classicism and high culture, and the intersecting spheres of loyalty
 - Some traditionalists have embraced the labels "reactionary" and "counterrevolutionary", defying the stigma that has attached to these terms since the Enlightenment.
 - Having a hierarchical view of society, many traditionalist conservatives, including a few Americans, defend the monarchical political structure as the most natural and beneficial social arrangement.
@@ -618,9 +643,21 @@ from wikipedia:
 - While most traditionalist conservatives are cosmopolitan[citation needed] and many live in urban centers, the countryside and the values of rural life are prized highly (sometimes even being romanticized, as in pastoral poetry). The principles of agrarianism (i.e., preserving the small family farm, open land, the conservation of natural resource, and stewardship of the land) are central to a traditionalist's understanding of rural life
 - defend classical Western civilization, and value an education informed by the texts of the Hebraic, Greek, Roman, and Medieval eras. Similarly, traditionalists are classicists who revere high culture in all of its manifestations (e.g., literature, music, architecture, art, theater)
 - Unlike nationalists, who esteem the role of the State or nation over the local or regional community, traditionalists hold up patriotism as a key principle. Traditionalist conservatives think that loyalty to a locality or region is more central than any commitment to a larger political entity. Traditionalists also welcome the value of subsidiarity and the intimacy of one's community, preferring the Civil Society of Burke's "little platoons" over the expanded State. Nationalism, alternately, leads to jingoism and views the state as abstract from the local community and family structure rather than as an outgrowth of these local realities
+*** red tory
+- adherent of a centre-right or progressive-conservative political philosophy derived from the Tory tradition in Canada and the United Kingdom
+- tends to favour liberal social policies, while maintaining a degree of fiscal conservatism and a respect of social and political order
+- Canadian conservatism has been derived from the Tory tradition, with a distinctive concern for a balance between individual rights and collectivism, as mediated through a traditional pre-industrial standard of morality – which has never been as evident in American conservatism
+- derives largely from a classical conservative tradition that maintained that the unequal division of wealth and political privilege among social classes can be justified if members of the privileged class practiced noblesse oblige and contributed to the common good.
+- supported traditional institutions such as religion and the monarchy, and maintenance of the social order
+- In distinction to the American experience where class divisions were seen as undemocratic (although still existing), Canadian Tories adopted a more paternalistic view of government. Monarchy, public order and good government – understood as dedication to the common good – preceded, moderated and balanced an unequivocal belief in individual rights and liberty
+- The explicit notion of a "Red" Toryism was developed by Gad Horowitz in the 1960s, who argued that there was a significant Tory ideology in Canada. This vision contrasted Canada with the United States, which was seen as lacking this collectivist tradition because it was expunged from the American political culture after the American Revolution and the exodus of the United Empire Loyalists. 
+- The term Red Tory is often used today in the media not to refer to those in the tradition of George Grant, Dalton Camp or Robert Stanfield, but simply to moderates in the conservative movement, particularly those who reject or do not sufficiently embrace social conservatism.
+*** small c conservative
 *** cultural conservatism
 - support the preservation of the heritage of one nation, or of a shared culture that is not defined by national boundaries.
+- Other variants of cultural conservatism are concerned with culture attached to a given language
 - hold fast to traditional ways of thinking even in the face of monumental change. They believe strongly in traditional values and traditional politics, and often have an urgent sense of nationalism.
+- distinct from social conservatism, although there are some overlaps. Social conservatives believe that the government has a role in encouraging or enforcing what they consider traditional values or behaviors. A social conservative wants to preserve traditional morality and social mores, often through civil law or regulation. Social change is generally regarded as suspect
 *** social conservatism
 - group of political ideologies centred on preserving traditional beliefs, attitudes and philosophy. The aims of social conservatism vary from organisation to organisation, and from country to country. Thus, there are really no policies or positions that could be considered universal among social conservatives.
 - may believe that the government has a role in encouraging or enforcing traditional values or behaviours
@@ -640,11 +677,12 @@ list of specific parties: https://en.wikipedia.org/wiki/Social_conservatism
 - refers to autocratic regimes that center their ideology around conservative nationalism rather than ethnic nationalism, though certain racial components such as antisemitism may exist
 - show strong devotion towards religion, tradition, and culture, while also expressing fervent nationalism akin to other far-right nationalist movements
 - Authoritarian conservative movements were prominent in the same era as fascism, with which it sometimes clashed. Although both ideologies shared core values such as nationalism and had common enemies such as communism and materialism, there was nonetheless a contrast between the traditionalist nature of authoritarian conservatism and the revolutionary, palingenetic, and populist nature of fascism; thus, it was common for authoritarian conservative regimes to suppress rising fascist and National Socialist movements. The hostility between the two ideologies is highlighted by the struggle for power for the National Socialists in Austria, which was marked by the assassination of Dollfuss.
-*** specific instances of conservatism
+*** regional variants
+Interesting to split these out into different things and tag them with the specific movement they're from
 https://en.wikipedia.org/wiki/Conservatism#Historic_conservatism_in_different_countries
 https://en.wikipedia.org/wiki/Conservatism#Modern_conservatism_in_different_countries
 https://en.wikipedia.org/wiki/Conservatism#Characteristics_of_conservatism_in_France.2C_Italy.2C_Russia.2C_Poland.2C_UK.2C_US_and_Israel
-Interesting to split these out into different things and tag them with the specific movement they're from
+https://en.wikipedia.org/wiki/List_of_political_ideologies#Regional_variants
 *** reactionary
 - a person who holds political views that favor a return to the status quo ante, the previous political state of society, which they believe possessed characteristics (discipline, respect for authority, etc.) that are negatively absent from the contemporary status quo of a society. As an adjective, the word reactionary describes points of view and policies meant to restore the status quo ante
 - Political reactionaries are at the right-wing of a political spectrum; yet, reactionary ideologies can be radical, in the sense of political extremism, in service to re-establishing the status quo ante
@@ -681,6 +719,62 @@ Republics mind their own business. Their governments have very limited powers, a
 - Neoconservative foreign policy is a descendant of so-called Wilsonian idealism. Neoconservatives endorse democracy promotion by the U.S. and other democracies, based on the claim that they think that human rights belong to everyone. They criticized the United Nations and detente with the USSR. On domestic policy, they endorse a welfare state, like European and Canadian conservatives and unlike American conservatives.
 - While neoconservatism is concerned primarily with foreign policy, there is also some discussion of internal economic policies. Neoconservatism generally endorses free markets and capitalism, favoring supply-side economics, but it has several disagreements with classical liberalism and fiscal conservatism: Irving Kristol states that neocons are more relaxed about budget deficits and tend to reject the Hayekian notion that the growth of government influence on society and public welfare is "the road to serfdom." Indeed, to safeguard democracy, government intervention and budget deficits may sometimes be necessary, Kristol argues
 - Further, neoconservative ideology stresses that while free markets do provide material goods in an efficient way, they lack the moral guidance human beings need to fulfill their needs. Morality can be found only in tradition, they say and, contrary to libertarianism, markets do pose questions that cannot be solved solely by economics. "So, as the economy only makes up part of our lives, it must not be allowed to take over and entirely dictate to our society."
+*** theoconservatism
+- political labels referring to members of the Christian right, particularly those whose ideology represents a synthesis of elements of American conservatism, conservative Christianity, and social conservatism, expressed through political means
+- [T]he neoconservatives believe that America is special because it was founded on an idea—a commitment to the rights of man embodied in the Declaration of Independence—not in ethnic or religious affiliations. The theocons, too, argue that America is rooted in an idea, but they believe that idea is Christianity.
+*** right-wing populism
+- a political ideology that rejects the current political consensus and often combines laissez-faire, ethnocentrism and anti-elitism.
+- It is considered populism because of its appeal to the "common man" as opposed to the elites
+- In Europe, right-wing populism is also an expression used to describe groups and political parties generally known for their opposition to immigration, mostly from the Islamic world and, in some cases, from (other members of) the European Union. 
+- Traditional right-wing views such as opposition to an increasing support for the welfare state and a "more lavish, but also more restrictive, domestic social spending" scheme is also described under right-wing populism and is sometimes called "welfare chauvinism"
+- Right-wing populism is distinct from conservativism but several right-wing populist parties have their roots in conservative political parties. Still others have links to fascist movements founded during the interwar period when Italian, German, Hungarian, Spanish and Japanese fascism rose to power.
+- Classification of right-wing populism into a single political family has proved difficult, and it is not certain whether a meaningful category exists, or merely a cluster of categories, since the parties differ in ideology, organization, and leadership rhetoric. Also, unlike traditional parties, they do not belong to international organizations of like-minded parties, and they do not use similar terms to describe themselves. One commonality though is that they are more right-wing than other political parties on the left–right axis.
+- specific examples: https://en.wikipedia.org/wiki/Right-wing_populism#By_country
+*** radical right
+*** right-libertarianism
+- refers to libertarian political philosophies that advocate negative rights, and a radical reversal of the modern welfare state
+- strongly support private property rights, and defend unequal "distribution" of natural resources and private property. This position is contrasted with that of some versions of left-libertarianism, which maintain that natural resources belong to everyone in some egalitarian manner, either unowned or owned collectively.
+- Right-libertarianism includes anarcho-capitalism and laissez-faire, minarchist liberalism.
+- non-aggression principle
+- There is a debate amongst right-libertarians as to whether or not the state is legitimate: while anarcho-capitalists advocate its abolition, minarchists support minimal states, often referred to as night-watchman states.
+- minarchist right-libertarians justify the state on the grounds that it is the logical consequence of adhering to the non-aggression principle and argue that anarchism is immoral because it implies that the non-aggression principle is optional, that the enforcement of laws under anarchism is open to competition. Another common justification is that private defense agencies and court firms would tend to represent the interests of those who pay them enough
+- Anarcho-capitalists argue that the state violates the non-aggression principle by its nature because governments use force against those who have not stolen or vandalized private property, assaulted anyone, or committed fraud. Many also argue that monopolies tend to be corrupt and inefficient, that private defense and court agencies would have to have a good reputation in order to stay in business.
+- anarcho-capitalists argue that no coercive monopoly of force can arise on a truly free market and that a government's citizenry can't desert them in favor of a competent protection and defense agency
+- Libertarian philosopher Moshe Kroy argues that the disagreement between anarcho-capitalists who adhere to Murray Rothbard's view of human consciousness and the nature of values and minarchists who adhere to Ayn Rand's view of human consciousness and the nature of values over whether or not the state is moral is not due to a disagreement over the correct interpretation of a mutually held ethical stance. He argues that the disagreement between these two groups is instead the result of their disagreement over the nature of human consciousness and that each group is making the correct interpretation of their differing premises. These two groups are therefore not making any errors with respect to deducing the correct interpretation of any ethical stance because they do not hold the same ethical stance
+- there is debate on whether left, right, and socialist libertarianism "represent distinct ideologies as opposed to variations on a theme," right-libertarianism is most in favor of private property
+- Right-libertarians maintain that unowned natural resources "may be appropriated by the first person who discovers them, mixes his labor with them, or merely claims them—without the consent of others, and with little or no payment to them. This contrasts with left-libertarianism in which "unappropriated natural resources belong to everyone in some egalitarian manner. Right-libertarians believe that natural resources are originally unowned, and therefore, private parties may appropriate them at will without the consent of, or owing to, others (e.g. a land value tax).
+- Right-libertarians (also referred to as propertarians) hold that societies in which private property rights are enforced are the only ones that are both ethical and lead to the best possible outcomes. They generally support the free market, and are not opposed to any concentrations of economic power, provided it occurs through non-coercive means.
+*** monarchism
+- advocacy of a monarch or monarchical rule
+- A monarchist is an individual who supports this form of government, independent of any specific monarch; one who espouses a particular monarch is a royalist. Conversely, the opposition to monarchical rule is sometimes referred to as republicanism
+*** green conservatism
+- a subset of conservatives who have incorporated green concerns into their ideology
+*** compassionate conservatism
+- political philosophy that stresses using traditionally conservative techniques and concepts in order to improve the general welfare of society
+- Wead contended that the policies of Republican conservatives should be motivated by compassion, not protecting the status quo. And Wead declared himself to be "a bleeding heart conservative," meaning that he cared for people and sincerely believed that a free marketplace was better for the poor
+- Compassionate conservatism has been defined as the belief that conservatism and compassion complement each other. A compassionate conservative might see the social problems of the United States, such as health care or immigration, as issues that are better solved through cooperation with private companies, charities and religious institutions rather than directly through government departments
+- Compassionate conservatives [...] offer a new way of thinking about the poor. They know that telling the poor that they are mere passive victims, whether of racism or of vast economic forces, is not only false but also destructive, paralyzing the poor with thoughts of their own helplessness and inadequacy. The poor need the larger society's moral support; they need to hear the message of personal responsibility and self-reliance, the optimistic assurance that if they try – as they must – they will make it. They need to know, too, that they can't blame "the system" for their own wrongdoing. - Myron Magnet
+- Compassionate conservative philosophy argues for policies in support of traditional families, welfare reform to promote individual responsibility (cf. workfare), active policing, standards-based schools (cf. No Child Left Behind Act), and assistance (economic or otherwise) to poor countries around the world
+*** civic conservatism
+- the idea of focussing on the institutions between the state and individuals as a policy concern (rather than merely thinking of individuals and the state as the only agencies). The pamphlet wished to "place the free market in the context of institutions and values which make up civil society". The examples of these institutions were the "network of voluntary organisations", from hospitals to guilds, which had been "weakened if not destroyed by the advance of the State"
+- Civic conservatism, like free market economics, proceeds from deep-seated individual self-interest towards a stable cooperation. It sets the Tories the task not of changing humanity but of designing institutions and arrangements that encourage our natural reciprocal altruism
+*** bioconservatism
+- a stance of hesitancy about technological development especially if it is perceived to threaten a given social order
+- conrasting stance to techno-progressivism
+- Strong bioconservative positions include opposition to genetic modification of food crops, the cloning and genetic engineering of livestock and pets, and, most prominently, rejection of the genetic, prosthetic, and cognitive modification of human beings to overcome what are broadly perceived as current human biological and cultural limitations
+- What unifies bioconservatives is skepticism about medical and other biotechnological transformations of the living world.
+- Typically less sweeping as a critique of technological society than bioluddism, the bioconservative perspective is characterized by its defense of the natural, deployed as a moral category
+*** anti-communism
+- opposition to communism
+- Conservative and classical liberal anti-communists argue that centrally planned economies have under-performed free market economies in economic growth and say that communism results in lower liberty. 
+- Some anti-communists refer to both communism and fascism as totalitarianism, seeing similarity between the actions of communist and fascist governments
+*** agrarianism
+- is a social philosophy or political philosophy which values rural society as superior to urban society, the independent farmer as superior to the paid worker, and sees farming as a way of life that can shape the ideal social values. It stresses the superiority of a simpler rural life as opposed to the complexity of city life.
+- Farming is the sole occupation that offers total independence and self-sufficiency.
+- Urban life, capitalism, and technology destroy independence and dignity and foster vice and weakness.
+- The agricultural community, with its fellowship of labor and co-operation, is the model society.
+- The farmer has a solid, stable position in the world order. He "has a sense of identity, a sense of historical and religious tradition, a feeling of belonging to a concrete family, place, and region, which are psychologically and culturally beneficial." The harmony of his life checks the encroachments of a fragmented, alienated modern society.
+- Cultivation of the soil "has within it a positive spiritual good" and from it the cultivator acquires the virtues of "honor, manliness, self-reliance, courage, moral integrity, and hospitality." They result from a direct contact with nature and, through nature, a closer relationship to God. The agrarian is blessed in that he follows the example of God in creating order out of chaos.
 ** right-wing politics
 ** left-wing politics
 ** liberalism
@@ -764,6 +858,7 @@ https://en.wikipedia.org/wiki/Anarchism_and_Friedrich_Nietzsche
 - multiculturalist tolerance and celebration of different identities; solicitude for how your own behavior affects others; concern for the social impact of language, etc. But the history of the term “politically correct” tells a much different story.
 *** positive and negative rights
 *** moral relativism and anti-relativism
+*** cultural relativism?
 *** intersectionality
 all types of oppression are linked and must be eradicated
 *** patriotism
@@ -779,3 +874,43 @@ https://en.wikipedia.org/wiki/Social_dominance_orientation#Scale
 *** jingoism
 *** civil society
 *** historicism
+*** rule of law
+*** private property
+*** market economy
+*** constitutional representative government
+*** welfare chauvinism
+*** opposition to immigration
+*** non-aggression principle
+- often described as the foundation of present-day right-libertarian philosophies
+- a moral stance which forbids actions that are inconsistent with capitalist property rights; defines "aggression" and "initiation of force" as violation of these rights
+- NAP and property rights are closely linked, since what constitutes aggression depends on what libertarians consider to be one's property
+- Because the principle redefines aggression in right-libertarian terms, use of the NAP as a justification for right-libertarianism has been criticized as circular reasoning and as rhetorical obfuscation of the coercive nature of libertarian property law enforcement
+- The principle has been used rhetorically to oppose such policies as victimless crime laws, taxation, and military drafts.
+*** minarchism
+- Minarchists maintain that the state is necessary for the protection of individuals from aggression, theft, breach of contract, and fraud. 
+- They believe the only legitimate governmental institutions are the military, police, and courts, though some expand this list to include fire departments, prisons, and the executive and legislative branches
+*** protectionism
+- the economic policy of restraining trade between states (countries) through methods such as tariffs on imported goods, restrictive quotas, and a variety of other government regulations
+- Protectionist policies protect the producers, businesses and workers of the import-competing sector in a country from foreign competitors
+- According to proponents, these policies can counteract unfair trade practices, to allow fair competition between imports and goods and services produced domestically
+- Protectionists may favor the policy in order to decrease the trade deficit, maintain employment in certain sectors, or favor the growth of certain industries
+- specific policies: https://en.wikipedia.org/wiki/Protectionism#Protectionist_policies
+*** non-interventionism
+- a foreign policy that holds that political rulers should avoid alliances with other nations but still retain diplomacy and avoid all wars unless related to direct self-defense
+- non-interventionism is a policy characterized by the absence of "interference by a state or states in the external affairs of another state without its consent, or in its internal affairs with or without its consent
+- Non-interventionism is distinct from and often confused with isolationism. Proponents of isolationism differ from proponents of non-interventionism through their advocacy of economic nationalism (called also protectionism) and immigration reduction. Non-interventionism is a policy in government only and thus does not exclude non-governmental intervention by organizations
+*** isolationism
+- the foreign policy position that a nations' interests are best served by keeping the affairs of other countries at a distance
+- A policy or doctrine of trying to isolate one's country from the affairs of other nations by declining to enter into alliances, foreign economic commitments, international agreements, and generally attempting to make one's economy entirely self-reliant; seeking to devote the entire efforts of one's country to its own advancement, both diplomatically and economically, while remaining in a state of peace by avoiding foreign entanglements and responsibilities
+- Non-interventionism is distinct from and often confused with isolationism. Proponents of isolationism differ from proponents of non-interventionism through their advocacy of economic nationalism (called also protectionism) and immigration reduction. Non-interventionism is a policy in government only and thus does not exclude non-governmental intervention by organizations
+*** federalism
+- the mixed or compound mode of government, combining a general government (the central or 'federal' government) with regional governments (provincial, state, cantonal, territorial or other sub-unit governments) in a single political system. Its distinctive feature, exemplified in the founding example of modern federalism of the United States of America under the Constitution of 1787, is a relationship of parity between the two levels of government established. It can thus be defined as a form of government in which there is a division of powers between two levels of government of equal status.
+- Federalism is distinguished from confederalism, in which the general level of government is subordinate to the regional level, and from devolution within a unitary state, in which the regional level of government is subordinate to the general level
+- Modern federalism is a system based upon democratic rules and institutions in which the power to govern is shared between national and provincial/state governments. The term federalist describes several political beliefs around the world depending on context
+*** paternalism
+*** communitarianism
+- a philosophy that emphasizes the connection between the individual and the community.
+- Its overriding philosophy is based upon the belief that a person's social identity and personality are largely molded by community relationships, with a smaller degree of development being placed on individualism
+- Although the community might be a family unit, communitarianism usually is understood, in the wider, philosophical sense, as a collection of interactions, among a community of people in a given place (geographical location), or among a community who share an interest or who share a history
+- The term is primarily used in two senses: Philosophical communitarianism considers classical liberalism to be ontologically and epistemologically incoherent, and opposes it on those grounds. Unlike classical liberalism, which construes communities as originating from the voluntary acts of pre-community individuals, it emphasizes the role of the community in defining and shaping individuals. Communitarians believe that the value of community is not sufficiently recognized in liberal theories of justice. Ideological communitarianism is characterized as a radical centrist ideology that is sometimes marked by leftism on economic issues and centrism on social issues. This usage was coined recently. When the term is capitalized, it usually refers to the Responsive Communitarian movement of Amitai Etzioni and other philosophers.
+- In moral and political philosophy, communitarians are best known for their critiques of John Rawls' political liberalism, detailed at length in his book A Theory of Justice. Communitarians criticize the image Rawls presents of humans as atomistic individuals, and stress that individuals who are well-integrated into communities are better able to reason and act in responsible ways than isolated individuals, but add that if social pressure to conform rises to high levels, it will undermine the individual self
